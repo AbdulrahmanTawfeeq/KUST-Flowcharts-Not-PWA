@@ -1,0 +1,105 @@
+{
+    "flowchart": {
+        "departmentName": "College of Science, Computer Department",
+        "fType": "",
+        "courseDescription": "http://cps.komar.edu.iq/computer-science-courses",
+        "pdfPath": "/PDFs/College of Science, Computer Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Calculus I", "MTH1410", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1410", "Calculus II", "MTH1411", "collage"],
+                        ["CMP1300", "Programming Concepts & Algorithms", "CPE2405C", "departmental"],
+                        ["CMP1300", "Computer Logic Design", "CPE2410C", "departmental"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Discrete Structures", "MTH3330", "collage"],
+                        ["CPE2405C", "Fundamentals of Database Systems", "CPE3330", "departmental"],
+                        ["CMP1300", "Web Technology and Design", "CPE2327", "departmental"],
+                        ["CPE2410C", "Computer Organization & Architecture", "CPE2325", "departmental"],
+                        ["CPE2405C", "Object Oriented Programming", "CPE2315", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH3330", "Statistics for Engineering & Science", "MTH3325", "collage"],
+                        ["CPE3330", "Advanced Database", "CPS2440C", "departmental"],
+                        ["CPE2327", "Web Programming", "CPS2335C", "departmental"],
+                        ["CPE2325", "Computer Communication & Network", "CPE3450C", "departmental"],
+                        ["CPE2315", "Data Structures", "CPE3340", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["CPE2325", "Linux Programming", "CPS3333", "departmental"],
+                        ["CPE2315", "Human Computer Interaction", "CPS3334", "departmental"],
+                        ["CPE3330", "Software Engineering", "CPE3345", "departmental"],
+                        ["CPE2315", "Computer Graphics", "CPS3345", "departmental"],
+                        ["CPE2410C", "Compiler Construction", "CPS3337", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["CPS2440C", "Data Mining", "CPS3338", "departmental"],
+                        ["CPE3450C", "Mobile Wireless Network", "CPS3339", "departmental"],
+                        ["CPE2315", "Application Programming", "CPS3460C", "departmental"],
+                        ["(70 CH)", "Departmental Elective I", "(3 CH)", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "CPE3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["CPS3460C", "Information System", "CPS4344", "departmental"],
+                        ["CPS3345", "Digital Image Processing", "CPS4341", "departmental"],
+                        ["CPS3460C", "Mobile Technology & Application", "CPS4442C", "departmental"],
+                        ["CPE2325", "Operating System", "CPE4360", "departmental"],
+                        ["(85 CH)", "Departmental Electives II", "(3 CH)", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["CPS4341", "Multimedia System", "CPS4343C", "departmental"],
+                        ["CPE4360", "Computer Security", "CPE4385", "departmental"],
+                        ["CPE3345", "Artificial Intelligent", "CPE4390", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "CPE4496", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

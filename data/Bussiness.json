@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "Business Administration Department - Major in Marketing",
+        "fType": "",
+        "courseDescription": "http://ba.komar.edu.iq/course",
+        "pdfPath": "/PDFs/Business Administration Department - Major in Marketing.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Introduction to Business", "BUS1200", "collage"],
+                        ["EGH0615", "College Algebra", "MTH1300", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1300", "Business Mathematics", "MTH1405", "collage"],
+                        ["MTH1300", "Introduction to Finance", "BUS1305", "collage"],
+                        ["EGH0615", "Financial Accounting", "ACC1300", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BUS1200", "Principles of Management", "BUS2320", "collage"],
+                        ["BUS1200", "Principles of Microeconomics I", "BUS2310", "collage"],
+                        ["BUS1200", "Principles of Marketing", "BUS2325", "collage"],
+                        ["CMP1300", "Computer Appllication for Business", "CMP2305", "collage"],
+                        ["MTH1300", "Science Elective I", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "International Business Env.", "BUS2315", "collage"],
+                        ["BUS2310", "Principles of Macroeconomics II", "BUS2311", "collage"],
+                        ["ACC1300", "Managerial Accounting", "ACC2305", "collage"],
+                        ["BUS2320, CMP2305", "Financial Management", "BUA2325", "departmental"],
+                        ["BUS2310", "Principle of Entrepreneurship", "BUA2305", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH1311", "Business Legal & Social Enviroment", "BUS3335", "collage"],
+                        ["MTH1405", "Statistics for Business", "MTH3327", "collage"],
+                        ["BUS2325", "Marketing Management", "BUA3315", "departmental"],
+                        ["BUS2325", "Hospitality & Tourism Market", "MKT3305", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH3327", "Quantitative Methods", "BUS3340", "collage"],
+                        ["BUS2320", "Managing People & Organization", "BUS3345", "collage"],
+                        ["CMP2305", "Managing Info. System", "INF3311", "collage"],
+                        ["MKT3305", "Ad. & Promo. Management", "MKT3310", "departmental"],
+                        ["BUS2311", "International Finance", "BUA4325", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "BUA3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BUS3345", "Organizational Behavior", "BUS4370", "collage"],
+                        ["BUA3050", "Business Analytics", "BUA4330", "departmental"],
+                        ["BUS3345", "Business Strategy", "BUA4370", "departmental"],
+                        ["MKT3310", "International Marketing", "MKT4315", "departmental"],
+                        ["MKT3305", "Consumer Behaviour", "MKT4320", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "Operations Management", "BUS4360", "collage"],
+                        ["BUA3315", "Marketing Analysis& Strategy", "MKT4325", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "BUA4495", "departmental"],
+                        ["MTH1300", "HUM/Social Elective", "(3 CH)", "university"],
+                        ["MTH1300", "Science Elective II", "(3 CH)", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

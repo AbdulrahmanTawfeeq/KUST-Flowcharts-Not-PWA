@@ -1,0 +1,105 @@
+{
+    "flowchart": {
+        "departmentName": "College of Engineering, Computer Department",
+        "fType": "F19+",
+        "courseDescription": "http://cpe.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Engineering, Computer Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Calculus I", "MTH1410", "collage"],
+                        ["EGH0615", "Information and Communication Technology", "CPE1410C", "departmental"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1410", "Calculus II", "MTH1411", "collage"],
+                        ["MTH1410 | MTH1411", "General Physics I & Lab", "PHY1410C", "collage"],
+                        ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Advanced Calculus", "MTH2412", "collage"],
+                        ["PHY1410C", "General Physics II & Lab", "PHY2411C", "collage"],
+                        ["CMP1300", "Programming Concepts & Algorithms", "CPE2405C", "departmental"],
+                        ["CMP1300, CPE1410C", "Computer Logic Design", "CPE2410C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1411", "Differential Equations", "MTH2315", "collage"],
+                        ["CPE2405C", "Object Oriented Programming", "CPE2315", "departmental"],
+                        ["PHY2411C", "Electronic Materials", "CPE2320", "departmental"],
+                        ["CPE2410C", "Computer Organization & Architecture", "CPE2325", "departmental"],
+                        ["CPE2405C", "Fundamentals of Database Systems", "CPE3330", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Statistics for Engineering", "MTH3325", "collage"],
+                        ["CPE2325", "Microprocessors", "CPE3435C", "departmental"],
+                        ["CPE2315", "Data Structures", "CPE3340", "departmental"],
+                        ["Dep. Approval", "Departmental Electives I", "(3 CH)", "departmental"],
+                        ["(60 CH)", "Social Science Elective", "(3 CH)", "university"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1411", "Discrete Structures", "MTH3330", "collage"],
+                        ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
+                        ["CPE3330", "Software Engineering", "CPE3345", "departmental"],
+                        ["CPE2325", "Computer Communication & Network", "CPE3450C", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "CPE3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["CPE2320, (80 CH)", "Circuit Analysis", "CPE4355C", "departmental"],
+                        ["CPE2325", "Operating System", "CPE4360", "departmental"],
+                        ["CPE3435C", "Introduction to Embeded System", "CPE4365", "departmental"],
+                        ["CPE2325, CPE3340", "Computer System Design", "CPE4370C", "departmental"],
+                        ["Dep. Approval", "Departmental Electives II", "(3 CH)", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["CPE3450C", "Computer Networking Design & Analysis", "CPE4375", "departmental"],
+                        ["CPE4360", "Computer Security", "CPE4385", "departmental"],
+                        ["CPE3345", "Artificial Intelligent", "CPE4390", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "CPE4496", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

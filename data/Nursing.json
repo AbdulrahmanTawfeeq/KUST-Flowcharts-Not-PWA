@@ -1,0 +1,113 @@
+{
+    "flowchart": {
+        "departmentName": "College of Medicine, Nursing Department",
+        "fType": "",
+        "courseDescription": "http://nrs.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Medicine, Nursing Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Fundamentals of Nursing I", "NUR1200C", "departmental"],
+                        ["EGH0615", "Medical Terminology", "MED1100", "collage"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Computer skills", "CMP1300", "university"],
+                        ["EGH0615", "General Medical Biology", "MED1300C", "collage"],
+                         ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["NUR1200C | NUR1201C", "Physical Assessment", "NUR1305C", "departmental"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["NUR1200C | NUR1305C", "Fundamentals of Nursing II", "NUR1201C", "departmental"],
+                        ["MED1300C", "Human Anatomy", "MED1310C", "collage"],
+                        ["MED1300C", "Genetics", "MED1200", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MED1310C", "General Histology", "MED2305C", "collage"],
+                        ["NUR1305C", "Adult Nursing I", "NUR2310C", "departmental"],
+                        ["NUR1305C", "Maternal & Neonatal Nursing", "NUR2315C", "departmental"],
+                        ["MED1310C", "Human Physiology", "MLS2415C", "collage"],
+                        ["NUR1305C", "Biochemistry", "CHM2415C", "collage"],
+                        ["NUR1201C", "Human Growth & Development", "NUR2220", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MED2305C", "General Pathology", "MED3300C", "collage"],
+                        ["NUR2310C", "Adult Nursing II", "NUR2311C", "departmental"],
+                        ["NUR2220", "Mental Health Nursing I", "NUR2225", "departmental"],
+                        ["NUR2220", "Pediatric Nursing I", "NUR2330C", "departmental"],
+                        ["CHM2415C", "Fundamentalof Nutrition", "NUR2335", "departmental"],
+                        ["NUR2310C", "Introduction to Microbiology", "MLS2405C", "collage"],
+                        ["NUR2220", "Basic Immunology", "MED2200", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["NUR2311C", "Epidemiology", "NUR3240", "departmental"],
+                        ["NUR2225", "Mental Health Nursing II", "NUR3326C", "departmental"],
+                        ["NUR2330C", "Pediatric Nursing II", "NUR3331C", "departmental"],
+                        ["NUR2311C", "Adult Nursing III", "NUR3312C", "departmental"],
+                        ["NUR1200C", "Nursing Ethics", "NUR3345", "departmental"],
+                        ["CHM2415C", "General Pharmacology", "DEN3211", "collage"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["NUR3312C", "Emergency & Disaster Nursing", "NUR3350C", "departmental"],
+                        ["NUR3312C", "Critical Care Nursing", "NUR3355C", "departmental"],
+                        ["NUR3312C", "Nursing Management", "NUR3360C", "departmental"],
+                        ["NUR3240", "Environmental Health Nursing", "NUR3270", "departmental"],
+                        ["NUR3240", "Biostatistics", "MTH3320", "collage"],
+                        ["NUR3312C", "Health Promotion", "NUR3265", "departmental"],
+                        ["EGH1310", "Professinal Communication", "EGH3215", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["NUR3360C", "Nursing Education", "NUR4275", "departmental"],
+                        ["NUR3360C", "HIS", "NUR4280", "departmental"],
+                        ["NUR3265", "Community Health Nursing", "NUR4285", "departmental"],
+                        ["NUR3312C", "Evidence Based Practice", "MLS4365", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"],
+                        ["NUR3355C", "Geriatric Nursing", "NUR4395C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["(117 CH)", "Rotation Adult-Nur.I Adult-Nur.II Adult-Nur.III Pediatric-Nur. Emergency&Disaster Public-Health-Nur. Maternity&Newborn ICU&CCU Nur.Management", "NUR49100R", "rotations"],
+                        ["(117 CH)", "Graduation Project", "NUR44105", "departmental"],
+                         ["NUR3265", "Home Care Nursing", "NUR42110", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

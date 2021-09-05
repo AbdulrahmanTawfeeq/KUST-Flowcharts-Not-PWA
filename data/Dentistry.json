@@ -1,0 +1,163 @@
+{
+    "flowchart": {
+        "departmentName": "College of Medicine, Dentistry Department",
+        "fType": "",
+        "courseDescription": "http://den.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Medicine, Dentistry Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Medical Chemistry", "DEN1310C", "departmental"],
+                        ["EGH0615", "Medical Terminology", "MED1100", "collage"],
+                        ["EGH0615", "General Medical Biology", "MED1300C", "collage"],
+                        ["EGH0615", "Medical Biophysics", "MED1305C", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MED1300C", "Dental Anatomy", "DEN1400C", "departmental"],
+                        ["MED1300C, MED1100", "Human Anatomy", "MED1310C", "collage"],
+                        ["MED1300C", "Genetics", "MED1200", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DEN1400C", "Preclinical Prosthodontics I", "DEN2200C", "departmental"],
+                        ["MED1310C", "Head & Neck Anatomy I", "DEN2220C", "departmental"],
+                        ["DEN1400C", "Dental Occlusion", "DEN2100", "departmental"],
+                        ["MED1310C", "General Histology", "MED2305C", "collage"],
+                        ["DEN1310C", "Biochemistry", "CHM2415C", "collage"],
+                        ["MED1200", "Microbiology I", "MED2300C", "collage"],
+                        ["MED1310C", "Human Physiology", "MED2405C", "collage"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DEN2200C", "Preclinical Prosthodontics II", "DEN2210C", "departmental"],
+                        ["DEN2220C", "Head & Neck Anatomy II", "DEN2225C", "departmental"],
+                        ["DEN2200C", "Dental Materials I", "DEN2205C", "departmental"],
+                        ["MED2305C", "Oral Histology & Embryology", "DEN2300C", "departmental"],
+                        ["MED2405C", "Oral Physiology", "DEN2200", "departmental"],
+                        ["MED1305C", "Introduction to Radiology", "DEN2105", "departmental"],
+                        ["DEN2200C", "Preclinical Operative Dentistry I", "DEN2202C", "departmental"],
+                        ["MED2300C", "Microbiology II", "MED2310C", "collage"],
+                        ["MED2305C", "Basic Immunology", "MED2200", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DEN2210C", "Preclinical Prosthodontics III", "DEN3200C", "departmental"],
+                        ["DEN2202C", "Preclinical Operative Dentistry II", "DEN3216C", "departmental"],
+                        ["HUM1300", "Dental Ethics", "DEN3100", "departmental"],
+                        ["CHM2415C", "General Pharmacology I", "DEN3211", "departmental"],
+                        ["DEN2200", "Medical Psychology", "DEN3105", "departmental"],
+                        ["DEN2105", "Oral & Maxillofacial Radiology I", "DEN3213C", "departmental"],
+                        ["DEN2202C", "Preclinical Crown & Bridge I", "DEN3241C", "departmental"],
+                        ["(40 CH)", "Biostatics", "MTH3320", "collage"],
+                        ["MED2305C, MED2200", "Gerleral Pathology", "MED3300C", "collage"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DEN3200C", "Preclinical Prosthodontics IV", "DEN3215C", "departmental"],
+                        ["DEN3216C", "Preclinical Endodontic Dentistry", "DEN3210C", "departmental"],
+                        ["DEN2225C", "Preclinical Oral Surgery", "DEN3220C", "departmental"],
+                        ["DEN3211", "General Pharmacology II", "DEN3212", "departmental"],
+                        ["DEN3105", "General Medicine", "DEN3300C", "departmental"],
+                        ["DEN3213C", "Oral & Maxillofacial Radiology II", "DEN3214C", "departmental"],
+                        ["MTH3320", "Oral Health & Community Dentistry", "DEN3225", "departmental"],
+                        ["MED3300C", "Basic Periodontology", "DEN3110", "departmental"],
+                        ["DEN3211", "Medical Emergency in Dentistry", "DEN3215", "departmental"],
+                        ["MED3300C", "Infection Control", "DEN3120", "departmental"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training 1", "KPT3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DEN3215C", "Prosthodontics I", "DEN4210C", "departmental"],
+                        ["DEN3210C", "Conservative Dentistry I", "DEN4200C", "departmental"],
+                        ["DEN3220C", "Oral Surgery I", "DEN4310C", "departmental"],
+                        ["MED3300C", "Oral & Maxillofacial Pathology I", "DEN4305C", "departmental"],
+                        ["DEN3110", "Preiodontics I", "DEN4215C", "departmental"],
+                        ["DEN3225", "Community Dentistry I", "DEN4230C", "departmental"],
+                        ["DEN2205C", "Dental Materials II", "DEN4244C", "departmental"],
+                        ["DEN3300C", "Preclinical Oral Medicine", "DEN4200", "departmental"],
+                        ["DEN3241C", "Preclinical Crown & Bridge II", "DEN4231C", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DEN4210C", "Prosthodontics II", "DEN4235C", "departmental"],
+                        ["DEN4200C", "Conservative Dentistry II", "DEN4220C", "departmental"],
+                        ["DEN4310C", "Oral Surgery II", "DEN4330C", "departmental"],
+                        ["DEN4305C", "Oral & Maxillofacial Pathology II", "DEN4325C", "departmental"],
+                        ["DEN4215C", "Preiodontics II", "DEN4225C", "departmental"],
+                        ["DEN4230C", "Community Dentistry II", "DEN4240C", "departmental"],
+                        ["DEN4200", "Oral Medicine I", "DEN4241C", "departmental"],
+                        ["KPT3050", "Preclinical Orthodontics", "DEN4205C", "departmental"],
+                        ["DEN4200C", "Preclinical Pedodentics", "DEN4245", "departmental"],
+                        ["HUM3215", "Evidence Based Dentistry", "DEN4105", "departmental"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training 2", "KPT3051"]
+        }, {
+            "yearName": "Fifth Year (Super Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DEN4235C", "Prosthodontics III", "DEN5215C", "departmental"],
+                        ["DEN4220C", "Conservative Dentistry III", "DEN5300C", "departmental"],
+                        ["DEN4330C", "Oral Surgery III", "DEN5310C", "departmental"],
+                        ["DEN4205C", "Orthodontics I", "DEN5205C", "departmental"],
+                        ["DEN4225C", "Preiodontics III", "DEN5305C", "departmental"],
+                        ["DEN4245", "Pedodentics I", "DEN5220C", "departmental"],
+                        ["DEN4241C", "Oral Medicine II", "DEN5225C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DEN5215C", "Prosthodontics IV", "DEN5230C", "departmental"],
+                        ["DEN5300C", "Conservative Dentistry IV", "DEN5315C", "departmental"],
+                        ["DEN5310C", "Implantology", "DEN5211C", "departmental"],
+                        ["DEN5205C", "Orthodontics II", "DEN5235C", "departmental"],
+                        ["DEN5220C", "Pedodentics II", "DEN5245C", "departmental"],
+                        ["DEN5300C", "Advanced Esthetic Dentistry*", "DEN5250C", "optional"],
+                        ["DEN5300C", "Digital Dentistry*", "DEN5151", "optional"],
+                        ["PHR4201", "Graduation Project", "KGP4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

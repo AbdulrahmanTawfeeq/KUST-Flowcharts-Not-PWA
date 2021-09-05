@@ -1,0 +1,106 @@
+{
+    "flowchart": {
+        "departmentName": "College of Engineering, Envionmental Department",
+        "fType": "",
+        "courseDescription": "http://env.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Engineering, Envionmental Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Calculus I", "MTH1410", "collage"],
+                        ["EGH0615", "General Chemistry with Lab", "CHM1410C", "collage"],
+                        ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1410", "Calculus II", "MTH1411", "collage"],
+                        ["MTH1410 | MTH1411", "General Physics I with Lab", "PHY1410C", "collage"],
+                        ["ENG1200", "Biology", "BIO2310C", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Advanced Calculus", "MTH2412", "collage"],
+                        ["ENG1200", "Engineering Graphics", "CVE2205", "collage"],
+                        ["PHY1410C", "Engineering Mechanics", "MEE2405", "collage"],
+                        ["Dep. Approval", "Social Science Elective", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1411", "Differential Equations", "MTH2315", "collage"],
+                        ["MEE2405", "Strength of Materials", "CVE2315", "collage"],
+                        ["MEE2405", "Engineering Thermodynamic", "MEE2310", "collage"],
+                        ["PHY1410C", "General Physics II with Lab", "PHY2411C", "collage"],
+                        ["MEE2405", "Fluid Mechanics", "MEE2315C", "collage"],
+                        ["BIO2310C, BIO1310", "Environmental Engineering Microbiology", "NVE2305", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Statistics for Engineering", "MTH3325", "collage"],
+                        ["CVE2315", "Soil Mechanics", "CVE3320C", "departmental"],
+                        ["CVE2315", "Env. Eng. Materials NVE3310C or Eng. Materials", "CVE3325C", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
+                        ["MEE2315C", "Hydraulics Engineering", "NVE3340C", "departmental"],
+                        ["CVE3320C", "Air Pollution and Control", "NVE3315", "departmental"],
+                        ["CHM1410C", "Evironmental Eng. Fundamentals", "NVE3325C", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "NVE3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["NVE3340C, MEE2315C", "Environmental Hydrology", "NVE4335", "departmental"],
+                        ["NVE3325C", "Water & Waterwaste Treatment", "NVE4345", "departmental"],
+                        ["NVE3325C", "Env. Monitoring & Measure Analysis", "NVE4355", "departmental"],
+                        ["NVE3050", "Health Safety and Environment", "NVE4325", "departmental"],
+                        ["Dep. Approval", "Humanities Elective", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["NVE4355", "Solid Water System Design", "NVE4365", "departmental"],
+                        ["NVE3315", "Env. Chemistry (Air & Water)", "NVE4370C", "departmental"],
+                        ["NVE4325", "Environmental Health", "NVE4375", "departmental"],
+                        ["NVE4325", "Groundater flow & Contaminant Transport", "NVE4380", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "NVE4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

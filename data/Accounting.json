@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "College of Business, Accounting Department",
+        "fType": "",
+        "courseDescription": "http://acc.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Business, Accounting Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Introduction to Business", "BUS1200", "collage"],
+                        ["EGH0615", "College Algebra", "MTH1300", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1300", "Business Mathematics", "MTH1405", "collage"],
+                        ["MTH1300", "Introduction to Finance", "BUS1305", "collage"],
+                        ["EGH0615", "Financial Accounting", "ACC1300", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BUS1200", "Principles of Management", "BUS2320", "collage"],
+                        ["BUS1200", "Principles of Microeconomics I", "BUS2310", "collage"],
+                        ["BUS1200", "Principles of Marketing", "BUS2325", "collage"],
+                        ["CMP1300", "Computer Appllication for Business", "CMP2305", "collage"],
+                        ["ACC1300", "Intermediate Accounting I", "ACC2310", "departmental"],
+                        ["MTH1300", "Science Elective I", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "International Business Env.", "BUS2315", "collage"],
+                        ["BUS2310", "Principles of Macroeconomics II", "BUS2311", "collage"],
+                        ["ACC1300", "Managerial Accounting", "ACC2305", "collage"],
+                        ["ACC1300", "Cost Accounting", "ACC2315", "departmental"],
+                        ["ACC2310", "Intermediate Accounting II", "ACC2311", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH1311", "Business Legal & Social Enviroment", "BUS3335", "collage"],
+                        ["MTH1405", "Statistics for Business", "MTH3327", "collage"],
+                        ["ACC2311", "Unified Accounting System", "ACC3370", "departmental"],
+                        ["ACC2310", "International Accounting", "ACC3355", "departmental"],
+                        ["MTH1300", "Science Elective II", "(3 CH)", "university"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH3327", "Quantitative Methods", "BUS3340", "collage"],
+                        ["BUS2320", "Managing People & Organization", "BUS3345", "collage"],
+                        ["ACC2310", "Financial Statements Analysis", "ACC3330", "departmental"],
+                        ["ACC1300, CMP2305", "Accounting Info. System", "ACC3320", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "ACC3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["ACC3330", "Auditing", "ACC4340", "departmental"],
+                        ["ACC2310", "Goverment Accounting", "ACC4330", "departmental"],
+                        ["ACC3330", "Financial Reporting", "ACC4360", "departmental"],
+                        ["ACC3330", "Accounting Theory", "ACC4335", "departmental"],
+                        ["ACC3370", "Specialized Accounting", "ACC4310", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "Operations Management", "BUS4360", "collage"],
+                        ["ACC4335", "Advanced Accounting", "ACC4345", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "ACC4495", "departmental"],
+                        ["ACC2311", "Taxation Accounting", "ACC4365", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

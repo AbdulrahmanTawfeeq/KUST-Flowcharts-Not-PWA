@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "College of Engineering, Civil Department",
+        "fType": "",
+        "courseDescription": "http://cve.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Engineering, Civil Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Calculus I", "MTH1410", "collage"],
+                        ["EGH0615", "General Chemistry with Lab", "CHM1410C", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1410", "Calculus II", "MTH1411", "collage"],
+                        ["MTH1410 | MTH1411", "General Physics I with Lab", "PHY1410C", "collage"],
+                        ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Advanced Calculus", "MTH2412", "collage"],
+                        ["PHY1410C", "General Physics II with Lab", "PHY2411C", "collage"],
+                        ["PHY1410C", "Engineering Mechanics", "MEE2405", "collage"],
+                        ["ENG1200", "Engineering Graphics", "CVE2205", "departmental"],
+                        ["Dep. Approval", "Humanities Elective", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1411", "Differential Equations", "MTH2315", "collage"],
+                        ["MEE2405", "Strength of Materials", "CVE2315", "collage"],
+                        ["Dep. Approval", "Science Elective", "(3 CH)", "collage"],
+                        ["MEE2405", "Engineering Thermodynamic", "MEE2310", "collage"],
+                        ["MEE2405", "Fluid Mechanics", "MEE2315C", "departmental"],
+                        ["ENG1200", "Engineering Survery with Lab", "CVE2310C", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Statistics for Engineering", "MTH3325", "collage"],
+                        ["CVE2315", "Engineering Materials", "CVE3325C", "departmental"],
+                        ["CVE2315", "Soil Mechanics", "CVE3320C", "departmental"],
+                        ["CVE2315", "Structural Analysis Design", "CVE3335", "departmental"],
+                        ["CHM1410C", "Envionmental Engineering Fundamentals", "NVE3325C", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
+                        ["CVE3325C", "Reinforced Concrete I", "CVE3365", "departmental"],
+                        ["NVE3325C, MEE2315C", "Water Resources", "CVE3345", "departmental"],
+                        ["CVE3320C", "Geotechnical Engineering", "CVE3330", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"],
+                        ["Dep. Approval", "Social Science Elective", "(3 CH)", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "CVE3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["CVE3320C", "Transportation Engineering", "CEV4355", "departmental"],
+                        ["CVE3050", "Health, Safty & Environment", "NVE4325", "departmental"],
+                        ["CVE3335", "Construction Engineering", "CVE4360", "departmental"],
+                        ["CVE3365", "Reinforced Concrete II", "CVE4366", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["CVE4360", "Structural Systems", "CVE4370", "departmental"],
+                        ["CVE3050", "Tech Elective Design", "CVE4380", "departmental"],
+                        ["CVE3050", "Application & Design Methods", "CVE4285", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "CVE4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

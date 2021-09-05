@@ -1,0 +1,198 @@
+/* author: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: whitesmoke;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px 0;
+  margin: 0;
+}
+a {
+  background-color: transparent;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+:root {
+  /* everything in the flowchart is responsive to this size 105px */
+  --flowchart-size: 8.203vw;
+  --icon-opacity: 40%;
+  --icon-clickable: none;
+  --border: calc((var(--flowchart-size) * 0.869) / 100) solid #ccc;
+  --border-radius: calc((var(--flowchart-size) * 2.478) / 100);
+  --transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+    border-radius 0.25s ease-in-out, transform 0.25s ease-in-out,
+    opacity 0.25s ease-in-out;
+  --value1: calc((var(--flowchart-size) * 2.608) / 100);
+  --value2: calc((var(--flowchart-size) * 3.479) / 100);
+  --value3: calc((var(--flowchart-size) * 4.347) / 100);
+  --value4: calc((var(--flowchart-size) * 5.798) / 100);
+  --value5: calc((var(--flowchart-size) * 6.957) / 100);
+  --value6: calc((var(--flowchart-size) * 8.695) / 100);
+  --value7: calc((var(--flowchart-size) * 10.434) / 100);
+  --value8: calc((var(--flowchart-size) * 11.595) / 100);
+  --value9: calc((var(--flowchart-size) * 16.231) / 100);
+  --value10: calc((var(--flowchart-size) * 86.957) / 100);
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  column-gap: 4px;
+  justify-content: center;
+  height: 50px;
+  width: fit-content;
+  z-index: 5;
+  background-color: whitesmoke;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+button.bars {
+  margin: auto;
+  display: none;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: unset;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  background-color: unset;
+  text-align: left;
+  cursor: pointer;
+  z-index: 4;
+  color: black;
+  white-space: nowrap;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.flowchart {
+  transform-origin: center top;
+  padding: var(--value6);
+  overflow: visible;
+  min-height: calc((var(--flowchart-size) * 741.238) / 100);
+  min-width: calc((var(--flowchart-size) * 937.879) / 100);
+  max-height: calc((var(--flowchart-size) * 1106.81) / 100);
+  max-width: calc((var(--flowchart-size) * 1169.753) / 100);
+  display: flex;
+  flex-flow: column;
+  z-index: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.flowchart > h3 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.flowchart > div {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  align-content: flex-start;
+  justify-content: center;
+  gap: 10px;
+  max-width: 575px;
+  padding: 5px;
+}
+
+.flowchart > div > div {
+  text-align: center;
+  background-color: #9acd60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  height: 95px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+nav,
+.icon,
+.menu-items,
+a,
+.flowchart main .internship,
+.flowchart main section div .semester div,
+#colors .menu-items img,
+.flowchart > div > div {
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+/* author: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq */

@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "College of Engineering, Petroleum Department",
+        "fType": "",
+        "courseDescription": "http://pte.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Engineering, Petroleum Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Calculus I", "MTH1410", "collage"],
+                        ["EGH0615", "General Chemistry with Lab", "CHM1410C", "collage"],
+                        ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1410", "Calculus II", "MTH1411", "collage"],
+                        ["MTH1410 | MTH1411", "General Physics I & Lab", "PHY1410C", "collage"],
+                        ["ENG1200", "Physical Geology", "PTE1310C", "departmental"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Advanced Calculus", "MTH2412", "collage"],
+                        ["PHY1410C", "General Physics II & Lab", "PHY2411C", "collage"],
+                        ["PHY1410C", "Engineering Mechanics", "MEE2405", "collage"],
+                        ["PTE1310C", "Petroleum Geology", "PTE2325", "departmental"],
+                        ["Dep. Approval", "Humanities Elective", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1411", "Differential Equations", "MTH2315", "collage"],
+                        ["MEE2405", "Strength of Materials", "CVE2315", "collage"],
+                        ["MEE2405", "Engineering Thermodynamic", "MEE2310", "collage"],
+                        ["MEE2405", "Fluid Mechanic", "MEE2315C", "collage"],
+                        ["PTE2325", "Reservoir Rock Prop", "PTE3310C", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MTH1411", "Statistics for Engineering", "MTH3325", "collage"],
+                        ["MEE2310", "Reservoir Fluid Prop", "PTE3315C", "departmental"],
+                        ["PTE3310C", "Well log Form Evaluation", "PTE3325", "departmental"],
+                        ["PTE3310C", "Petroleum Geophysics", "PTE3330", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
+                        ["PTE3310C, PTE3315C", "Reservoir Eng. Fundamental", "PTE3320", "departmental"],
+                        ["PTE3325", "Drill & Completion I", "PTE3335", "departmental"],
+                        ["Dep. Approval", "Department Elective", "(3 CH)", "departmental"],
+                        ["Dep. Approval", "Social Science Elective", "(3 CH)", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "KTP3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["PTE3335", "Petroleum Product Eng. I", "PTE4330", "departmental"],
+                        ["PTE3320", "Reservoir Management and Monitoring", "PTE4345", "departmental"],
+                        ["PTE3335", "Drill & Completion II", "PTE4336", "departmental"],
+                        ["Dep. Approval", "Department Elective", "(3 CH)", "departmental"],
+                        ["PTE3320", "Well Test Analysis", "PTE4370", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["PTE4330", "Petroleum Product Eng. II", "PTE4331", "departmental"],
+                        ["PTE4345", "Reservoir Simulation", "PTE4375", "departmental"],
+                        ["(105 CH)", "Transportation & Storage Petroleum", "PTE4380", "departmental"],
+                        ["Dep. Approval", "PTE Engineering Elective", "PTE4385", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "PTE4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

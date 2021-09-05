@@ -1,0 +1,573 @@
+/* author: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tab-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tab-highlight-color: rgba(0, 0, 0, 0);
+  -o-tab-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+#departments .menu-items div {
+  cursor: pointer;
+}
+
+#departments .menu-items div:hover,
+#departments .menu-items div:focus {
+  color: #3953a4;
+}
+
+#departments .menu-items div:active,
+nav [class="icon"]:active {
+  opacity: 0.5;
+}
+
+#colors .menu-items img {
+  width: 100%;
+  height: 100px;
+  align-self: flex-start;
+  cursor: pointer;
+  transform-origin: top left;
+}
+
+#colors .menu-items img:hover,
+#colors .menu-items img:focus {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  background-color: whitesmoke;
+  padding: 1px;
+  border: 1px solid #3953a4;
+  outline: none;
+}
+
+#colors > div div:first-of-type:before,
+#colors > div div:nth-of-type(2):before,
+#colors > div div:nth-of-type(3):before,
+#colors > div div:nth-of-type(4):before,
+#colors > div div:nth-of-type(5):before,
+#colors > div div:nth-of-type(6):before,
+#colors > div div:last-of-type:before {
+  content: "";
+  font-size: 14px;
+  position: relative;
+  width: 20px;
+  height: 15px;
+  right: 5px;
+}
+
+#colors > div div:first-of-type:after {
+  content: "University Requirements";
+}
+
+#colors > div div:nth-of-type(2):after {
+  content: "Collage Requirements";
+}
+
+#colors > div div:nth-of-type(3)::after {
+  content: "Department Reqirements";
+}
+
+#colors > div div:nth-of-type(4)::after {
+  content: "Prerequisite to";
+}
+
+#colors > div div:nth-of-type(5)::after {
+  content: "Co-requisite";
+}
+
+#colors > div div:nth-of-type(6)::after {
+  content: "Prerequisite for";
+}
+
+#colors > div div:last-of-type::after {
+  content: "*Departmental (Optional)";
+}
+
+#colors > div div:first-of-type:before {
+  background-color: #ffbf40;
+}
+
+#colors > div div:nth-of-type(2):before {
+  background-color: #87cecc;
+}
+
+#colors > div div:nth-of-type(3):before {
+  background-color: #9acd60;
+}
+
+#colors > div div:nth-of-type(4):before {
+  background-color: #9081ec;
+}
+
+#colors > div div:nth-of-type(5):before {
+  background-color: #a1877b;
+}
+
+#colors > div div:nth-of-type(6):before {
+  background-color: #e97474;
+}
+
+#colors > div div:last-of-type:before {
+  background-color: #d3bfdb;
+}
+
+.icon:focus,
+.icon:hover {
+  color: #3953a4;
+}
+
+nav > [title~="PDF"],
+nav > [title~="Course"],
+nav > [title^="Scale"] {
+  opacity: var(--icon-opacity);
+  pointer-events: var(--icon-clickable);
+}
+
+nav .close {
+  display: none;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent transparent black black;
+  border-style: solid;
+  border-width: 5px;
+  bottom: 50%;
+  right: 7.5px;
+  transform: rotate(-45deg) translateY(50%);
+  -webkit-transform: rotate(-45deg) translateY(50%);
+  -moz-transform: rotate(-45deg) translateY(50%);
+  -ms-transform: rotate(-45deg) translateY(50%);
+  -o-transform: rotate(-45deg) translateY(50%);
+}
+
+.menu-items {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid #3953a4;
+  position: absolute;
+  flex-flow: column;
+  display: none;
+  align-items: center;
+  padding: 10px 15px;
+  top: 90%;
+  left: 0;
+  cursor: initial;
+  white-space: nowrap;
+  z-index: 3;
+  height: fit-content;
+  width: 260px;
+  font-size: 14px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.menu:hover::before {
+  border-color: transparent transparent #3953a4 #3953a4;
+}
+
+.menu-items div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  outline: none;
+}
+
+.menu-items h3 {
+  text-align: center;
+}
+
+.menu-items hr {
+  width: 100%;
+  margin: 1px auto;
+  border: none;
+  height: 0.5px;
+  background-color: #aaa;
+}
+
+button.bars > img {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.flowchart > div > div:active {
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  -o-transform: scale(0.85);
+}
+
+.flowchart header {
+  display: inherit;
+  height: var(--flowchart-size);
+  justify-content: space-evenly;
+  margin-bottom: var(--value3);
+  border: var(--border);
+}
+
+.flowchart header::after {
+  content: "";
+  display: block;
+}
+
+.flowchart header img,
+.flowchart header::after {
+  height: var(--value10);
+  width: var(--value10);
+  align-self: center;
+}
+
+.flowchart header div h3 {
+  margin: 0;
+  font-size: var(--value9);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.flowchart header div {
+  display: inherit;
+  flex-flow: column;
+  justify-content: space-around;
+  padding: 0 var(--value3);
+  text-align: center;
+}
+
+.flowchart main {
+  display: inherit;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: fit-content;
+  padding: var(--value3);
+  border: var(--border);
+}
+
+.flowchart main .internship {
+  height: calc((var(--flowchart-size) * 195.652) / 100);
+  width: calc((var(--flowchart-size) * 17.391) / 100);
+  padding: var(--value1);
+  display: inherit;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+}
+
+.flowchart main .internship span {
+  margin: var(--value1) 0;
+  text-align: center;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.flowchart main .internship span:first-child:empty {
+  display: none;
+}
+
+.flowchart main .internship span:nth-of-type(2) {
+  margin-top: calc((var(--flowchart-size) * 40.58) / 100);
+  margin-bottom: calc((var(--flowchart-size) * 69.566) / 100);
+}
+
+.flowchart main section {
+  display: inherit;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: var(--value3);
+}
+
+.flowchart main section h4 {
+  text-align: center;
+  margin: 0 0 var(--value3);
+  width: 100%;
+  background-color: #fe878d;
+  font-size: var(--value8);
+  padding: var(--value3);
+  font-weight: normal;
+}
+
+.flowchart main section div {
+  display: inherit;
+  flex-flow: row;
+  justify-content: space-between;
+  width: calc((var(--flowchart-size) * 205.797) / 100);
+  /* margin-top: calc(var(--value3)/2); */
+}
+
+.flowchart main section div .semester {
+  display: inherit;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: var(--flowchart-size);
+  height: fit-content;
+  align-items: center;
+}
+
+.flowchart main section div .semester div {
+  width: inherit;
+  height: var(--value10);
+  display: inherit;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: var(--value1);
+  margin: 0 0 var(--value3);
+  cursor: pointer;
+  outline: none;
+}
+
+.flowchart header,
+.flowchart main,
+.flowchart main .internship,
+.flowchart main section h4,
+.flowchart main section div .semester div {
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.flowchart main section div .semester div:hover,
+.flowchart main .internship:hover,
+.flowchart main section div .semester div:focus,
+.flowchart main .internship:focus,
+.flowchart > div > div:hover,
+.flowchart > div > div:focus {
+  box-shadow: 0 0 var(--value4) 0 #111, 0 0 var(--value4) 0 #111;
+  border-radius: unset;
+  -webkit-border-radius: unset;
+  -moz-border-radius: unset;
+  -ms-border-radius: unset;
+  -o-border-radius: unset;
+}
+
+/* in komar flowchart, there is no internship in the last year */
+
+.flowchart main .internship:last-child {
+  display: none;
+}
+
+.flowchart main .internship:empty {
+  visibility: hidden;
+}
+
+.flowchart main section div .semester div span:first-child {
+  font-size: var(--value6);
+  text-align: left;
+}
+
+.flowchart main section div .semester div span:nth-child(2) {
+  max-height: calc((var(--flowchart-size) * 56.521) / 100);
+  height: fit-content;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+
+.flowchart main section div .semester div.rotations {
+  height: calc((var(--flowchart-size) * 269.565) / 100);
+}
+
+.flowchart main section div .semester div.rotations span {
+  max-height: fit-content;
+  height: fit-content;
+}
+
+.flowchart main section div .semester div.rotations span:nth-child(2) {
+  word-spacing: 9999px;
+  line-height: 2;
+  font-size: calc((var(--flowchart-size) * 9) / 100);
+}
+
+.flowchart
+  main
+  section
+  div
+  .semester
+  div.rotations
+  span:nth-child(2)::first-line {
+  font-weight: bold;
+  word-spacing: unset;
+}
+
+.flowchart main section div .semester div span:last-child {
+  text-align: center;
+}
+
+.flowchart main section div .semester div span:last-child,
+.flowchart main section div .semester div span:first-child,
+.flowchart main .internship span,
+.flowchart main section h4 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.flowchart main section div .semester div span:nth-child(2),
+.flowchart
+  main
+  section
+  div
+  .semester
+  div.rotations
+  span:nth-child(2)::first-line,
+.flowchart main section div .semester div span:last-child,
+.flowchart main .internship span {
+  font-size: var(--value7);
+}
+
+.cyan {
+  background-color: #87cecc;
+}
+
+.green {
+  background-color: #9acd60;
+}
+
+.yellow {
+  background-color: #ffbf40;
+}
+
+.lavender-gray {
+  background-color: #d3bfdb;
+}
+
+@media only screen and (max-width: 982px) {
+  nav {
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 283px;
+    background-color: white;
+    padding: 0;
+    border-bottom: 0;
+    overflow-y: scroll;
+    border-left: var(--border);
+  }
+
+  button.bars {
+    display: flex;
+  }
+
+  nav .close:focus,
+  button.bars:focus {
+    outline: 1px solid #888;
+  }
+
+  .icon {
+    border-bottom: var(--border);
+    width: 90%;
+    align-items: flex-start;
+  }
+
+  .icon,
+  nav .close {
+    color: #333;
+    padding: 16px 0;
+    align-self: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: fit-content;
+    flex-flow: column nowrap;
+  }
+
+  nav .close {
+    order: -1;
+    cursor: unset;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 10px;
+  }
+
+  nav .close > img {
+    cursor: pointer;
+  }
+
+  .menu::before {
+    border-color: transparent transparent #555 #555;
+    top: 15px;
+  }
+
+  .menu-items {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    position: relative;
+    top: 0;
+    order: 2;
+    width: 100%;
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+  }
+
+  .menu-items h3 {
+    display: none;
+  }
+
+  #colors .menu-items img:hover,
+  #colors .menu-items img:focus {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav > [title^="Scale"] {
+    display: none;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: auto;
+  }
+  nav {
+    display: none;
+  }
+  html {
+    background-color: white;
+  }
+}
+/* author: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq */

@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "Business Administration Department - Major in E-Commerce",
+        "fType": "",
+        "courseDescription": "http://ba.komar.edu.iq/course",
+        "pdfPath": "/PDFs/Business Administration Department - Major in E-Commerce.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["F2", "College Algebra", "MTH1300", "collage"],
+                        ["F1", "Introduction to Business", "BUS1200", "collage"],
+                        ["F1", "Computer Skills", "CMP1300", "university"],
+                        ["F2", "Academic English I", "EGH1310", "university"],
+                        ["F1", "Kurdology", "SOS1205", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH1300", "Business Mathematics", "MTH1405", "collage"],
+                        ["MTH1300", "Introduction to Finance", "BUS1305", "collage"],
+                        ["F2", "Financial Accounting", "ACC1300", "collage"],
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BUS1200", "Principles of Management", "BUS2320", "collage"],
+                        ["BUS1200", "Principles of Microeconomics I", "BUS2310", "collage"],
+                        ["CMP1300", "Computer Appllication for Business", "CMP2305", "collage"],
+                        ["BUS1200", "Principles of Marketing", "BUS2325", "collage"],
+                        ["MTH1300", "Science Elective I", "(3 CH)", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "International Business Env.", "BUS2315", "collage"],
+                        ["BUS2310", "Principles of Macroeconomics II", "BUS2311", "collage"],
+                        ["ACC1300", "Managerial Accounting", "ACC2305", "collage"],
+                        ["CMP1200", "Foundations of E-Commerce", "ECO2305", "departmental"],
+                        ["BUS2320, CMP2305", "Financial Management", "BUA2325", "departmental"],
+                        ["BUS2300", "Principle of Entrepreneurship", "BUA2305", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH1311", "Business Legal & Social Enviroment", "BUS3335", "collage"],
+                        ["MTH1405", "Statistics for Business", "MTH3327", "collage"],
+                        ["ECO2305", "Human Computer Interaction", "CPS3334", "departmental"],
+                        ["ECO2305", "Fundamental of Database Systems", "CPS3330", "departmental"],
+                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MTH3327", "Quantitative Methods", "BUS3340", "collage"],
+                        ["BUS2320", "Managing People & Organization", "BUS3345", "collage"],
+                        ["CMP2305", "Management Information System", "INF3311", "departmental"],
+                        ["ECO2305", "Web Technology & Design", "CPE2327", "departmental"],
+                        ["ECO2405", "B2B Commerce", "ECO3320", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "ECO3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BUS3345", "Organizational Behavior", "BUS4370", "collage"],
+                        ["ECO3050", "Business Analytics", "BUA4370", "departmental"],
+                        ["BUS3345", "Business Strategy", "BUA4365", "departmental"],
+                        ["ECO3320", "E-Commerce & Marketing Strategy", "ECO4315", "departmental"],
+                        ["CPE3330", "Software Engineering", "CPE3345", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BUS2320", "Operations Management", "BUS4360", "collage"],
+                        ["ECO2305", "E-Business Design & Implementation", "ECO4330", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "ECO4495", "departmental"],
+                        ["MTH1300", "Science Elective II", "(3 CH)", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

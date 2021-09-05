@@ -1,0 +1,114 @@
+{
+    "flowchart": {
+        "departmentName": "College of Languages, English Department",
+        "fType": "",
+        "courseDescription": "http://egh.komar.edu.iq/course",
+        "pdfPath": "/PDFs/College of Languages, English Department.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Conversation", "EGH1200", "departmental"],
+                        ["EGH0615", "Grammar I", "EGH1300", "departmental"],
+                        ["EGH0615", "Intorudction to Language", "LNG1200", "collage"],
+                        ["EGH0615 | EGH1300", "College Reading I", "LNG1305", "collage"],
+                        ["EGH0615", "Foreign Language I", "FLG1205", "collage"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["LNG1305", "Introduction to Literature", "LIT1300", "departmental"],
+                        ["EGH1300", "Grammar II", "EGH1305", "departmental"],
+                        ["LNG1200", "Introduction to Linguistics", "LNG1205", "collage"],
+                        ["LNG1305 | EGH1305", "College Writing I", "LNG1310", "collage"],
+                        ["FLG1205", "Foreign Language II", "FLG1210", "collage"],
+                        ["EGH1200", "Academic Debate", "HUM1300", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["LIT1300", "British Literature I", "LIT2300", "departmental"],
+                        ["LIT1300 | LIT2300", "Exploring Poetry I", "LIT2305", "departmental"],
+                        ["LNG1205", "Phonetics", "EGH2200", "departmental"],
+                        ["EGH1305", "Grammar III", "EGH2220", "departmental"],
+                        ["FLG1210", "Foreign Language III", "FLG2205", "collage"],
+                        ["LNG1310 | EGH2220", "College Reading II", "LNG2300", "collage"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["LIT2300", "British Literature II", "LIT2310", "departmental"],
+                        ["LIT2305 | LIT2310", "Exploring Poetry II", "LIT2315", "departmental"],
+                        ["EGH2200", "Phonology", "ENG2205", "departmental"],
+                        ["EGH2220", "Effective Communication", "EGH2210", "departmental"],
+                        ["FLG2205", "Foreign Language IV", "FLG2210", "collage"],
+                        ["LNG2300", "College Writing II", "LNG2305", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["LIT2310", "American Literature", "LIT3300", "departmental"],
+                        ["LIT2315", "Exploring Drama I", "LIT3305", "departmental"],
+                        ["ENG2205, EGH3205", "Morphology", "EGH3200", "departmental"],
+                        ["EGH2220", "Syntax", "EGH3205", "departmental"],
+                        ["LNG2305", "Translation I", "TRN3200", "collage"],
+                        ["LNG2305", "English Studies", "LNG3300", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["HUM3215", "Critical Approaches to Literature", "LIT3310", "departmental"],
+                        ["LIT3305", "Exploring Drama II", "LIT3315", "departmental"],
+                        ["EGH3205", "Semantics", "LNG3200", "departmental"],
+                        ["(70 CH)", "Intro. to Applied Linguisites", "LNG3205", "collage"],
+                        ["TRN3200", "Translation II", "TRN3205", "collage"],
+                        ["N/A", "Elective", "(3 CH)", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Practical Training", "KPT3050"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["LIT3310", "Creative Writing", "LNG4300", "departmental"],
+                        ["LIT3315", "Exploring Fiction I", "LIT4300", "departmental"],
+                        ["LNG3200", "Pragmatics", "LNG4200", "departmental"],
+                        ["LNG3205", "Teaching Methods", "LNG4205", "collage"],
+                        ["TRN3205", "Introduction to Interpreting", "TRN4200", "collage"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["LNG4300", "Film Studies", "LNG4305", "departmental"],
+                        ["LIT4300", "Exploring Fiction II", "LIT4305", "departmental"],
+                        ["LNG4200", "Discourse Analysis", "EGH4300", "departmental"],
+                        ["LNG4205", "Curriculum Design", "LNG4210", "collage"],
+                        ["TRN4200", "Audiovisual Translation", "TRN4205", "collage"],
+                        ["Dep. Approval", "Graduation Project", "KGP4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}
