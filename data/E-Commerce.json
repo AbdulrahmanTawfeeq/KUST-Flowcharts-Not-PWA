@@ -62,7 +62,7 @@
                         ["MTH1405", "Statistics for Business", "MTH3327", "collage"],
                         ["ECO2305", "Human Computer Interaction", "CPS3334", "departmental"],
                         ["ECO2305", "Fundamental of Database Systems", "CPS3330", "departmental"],
-                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                        ["EGH1311", "Professional Communication", "EGH3215", "university"]
                     ]
                 },
                 {
@@ -72,7 +72,7 @@
                         ["BUS2320", "Managing People & Organization", "BUS3345", "collage"],
                         ["CMP2305", "Management Information System", "INF3311", "departmental"],
                         ["ECO2305", "Web Technology & Design", "CPE2327", "departmental"],
-                        ["ECO2405", "B2B Commerce", "ECO3320", "departmental"],
+                        ["ECO2305", "B2B Commerce", "ECO3320", "departmental"],
                         ["EGH3215", "Research Methodology", "HUM3215", "university"]
                     ]
                 }

@@ -64,7 +64,7 @@
                     "courses": [
                         ["LIT2310", "American Literature", "LIT3300", "departmental"],
                         ["LIT2315", "Exploring Drama I", "LIT3305", "departmental"],
-                        ["ENG2205, EGH3205", "Morphology", "EGH3200", "departmental"],
+                        ["ENG2205", "Morphology", "EGH3200", "departmental"],
                         ["EGH2220", "Syntax", "EGH3205", "departmental"],
                         ["LNG2305", "Translation I", "TRN3200", "collage"],
                         ["LNG2305", "English Studies", "LNG3300", "university"]

@@ -76,7 +76,7 @@
                         ["PHR3300C", "Pharmacognosy & Phytochemistry", "PHR3305C", "departmental"],
                         ["PHR3310C", "Biochemistry II", "PHR3315C", "departmental"],
                         ["PHR3320C", "Medicinal Chemistry II", "PHR3321C", "departmental"],
-                        ["PHR3320C", "Pharmaceutical Compounding II", "PHR3330C", "departmental"],
+                        ["PHR3325C", "Pharmaceutical Compounding II", "PHR3330C", "departmental"],
                         ["PHR3210, MED3300C", "Pharmacology II", "PHR3320", "departmental"],
                         ["PHR3210", "Drug Informatics", "PHR3100", "departmental"],
                         ["MED3300C", "Pharmacy Practice Experience I", "PHR3105", "departmental"]
@@ -89,12 +89,12 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["PHR3320, PHR3315C", "Drug Discovery", "PHR4115", "departmental"],
+                        ["PHR3315C", "Clinical Biochemistry", "PHR4305C", "departmental"],
                         ["PHR3330C", "Biopharmaceutics", "PHR4310C", "departmental"],
                         ["PHR3100", "Public Health & First Aid", "PHR4105", "departmental"],
                         ["PHR3105", "Pharmacy Practice Experience II", "PHR4210", "departmental"],
-                        ["PHR3321C, PHR3315C", "Therapeutics I", "PHR4205", "departmental"],
-                        ["PHR3320, PHR3100", "Community Pharmacy & Ethics", "PHR4215", "departmental"],
+                        ["PHR3315C", "Therapeutics I", "PHR4205", "departmental"],
+                        ["PHR3320, PHR3100", "Community Pharmacy & Ethics", "PHR4116", "departmental"],
                         ["PHR3320", "Pharmacology III", "PHR4300C", "departmental"],
                         ["PHR3300C", "Herbal & Natural Remedies*", "PHR4251C", "optional"],
                         ["PHR3330C", "Biostatistics", "MTH3320", "collage"]
@@ -103,12 +103,12 @@
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["PHR4115, PHR3305C", "Drug Development & Regulations", "PHR4201", "departmental"],
+                        ["PHR3300C", "Drug Discovery", "PHR4115", "departmental"],
                         ["PHR4310C", "Pharmacokinetics", "PHR4225", "departmental"],
-                        ["PHR4210", "Pharmacy Management & Administration", "PHR4230", "departmental"],
+                        ["PHR4210", "Pharmacy Management & Administration", "PHR4130", "departmental"],
                         ["PHR4210", "Pharmacy Practice Experience III", "PHR4100", "departmental"],
                         ["PHR4205", "Therapeutics II", "PHR4206", "departmental"],
-                        ["PHR4215", "Patient Assessment & Comm. Skills", "PHR4220", "departmental"],
+                        ["PHR4116", "Patient Assessment & Comm. Skills", "PHR4120", "departmental"],
                         ["PHR4300C", "Toxicology", "PHR4405C", "departmental"],
                         ["PHR4300C", "Pharmacovigilance*", "PHR4250", "optional"],
                         ["EGH3215", "Research Methodology", "HUM3215", "university"]
@@ -121,11 +121,11 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["PHR4201, PHR4115", "Advanced Pharmaceutical Analysis", "PHR5301C", "departmental"],
+                        ["PHR4201", "Advanced Pharmaceutical Analysis", "PHR5301C", "departmental"],
                         ["PHR4225", "Industrial Pharmacy I", "PHR5300C", "departmental"],
                         ["PHR4100", "Pharmacy & Lab (Case Study)", "PHR5100", "departmental"],
-                        ["PHR4405C, PHR4310C", "Clinical Biochemistry", "PHR5305C", "departmental"],
-                        ["PHR4230, PHR4206", "Therapeutics III", "PHR5310", "departmental"],
+                        ["PHR4115", "Drug Development and Regulations", "PHR5201", "departmental"],
+                        ["PHR4130, PHR4206", "Therapeutics III", "PHR5310", "departmental"],
                         ["PHR4210", "Hospital Training (Clinical Lab)", "PHR5200", "departmental"],
                         ["PHR4300C", "Pharmacogenomics*", "PHR5250", "optional"]
                     ]
@@ -136,8 +136,8 @@
                         ["PHR4225", "Prodrugs", "PHR5105", "departmental"],
                         ["PHR4225", "Clinical Pharmacokinetics", "PHR5210", "departmental"],
                         ["PHR5300C", "Industrial Pharmacy II", "DEN5310C", "departmental"],
-                        ["PHR4220, PHR5100", "Hospital Training (Wards)", "PHR5215", "departmental"],
-                        ["PHR4310C", "Advanced Drug Delivery Systems", "PHR5205", "departmental"],
+                        ["PHR4120, PHR5100", "Hospital Training (Wards)", "PHR5215", "departmental"],
+                        ["PHR4310C", "Advanced Drug Delivery Systems", "PHR5106", "departmental"],
                         ["PHR5310", "Cancer Genetics & Personalized Medicine", "PHR5110", "departmental"],
                         ["PHR4201", "Drug Literature Evaluation*", "PHR5251", "optional"],
                         ["Dep. Approval", "Graduation Project", "PHR5495", "departmental"]

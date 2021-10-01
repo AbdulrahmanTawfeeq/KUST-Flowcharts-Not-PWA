@@ -61,7 +61,7 @@
                         ["CPE3330", "Software Engineering", "CPE3345", "departmental"],
                         ["CPE2315", "Computer Graphics", "CPS3345", "departmental"],
                         ["CPE2410C", "Compiler Construction", "CPS3337", "departmental"],
-                        ["EGH1310", "Professional Communication", "EGH3215", "university"]
+                        ["EGH1311", "Professional Communication", "EGH3215", "university"]
                     ]
                 },
                 {
@@ -84,7 +84,7 @@
                         ["CPS3460C", "Information System", "CPS4344", "departmental"],
                         ["CPS3345", "Digital Image Processing", "CPS4341", "departmental"],
                         ["CPS3460C", "Mobile Technology & Application", "CPS4442C", "departmental"],
-                        ["CPE2325", "Operating System", "CPE4360", "departmental"],
+                        ["CPE2325, (85 CH)", "Operating System", "CPE4360", "departmental"],
                         ["(85 CH)", "Departmental Electives II", "(3 CH)", "departmental"]
                     ]
                 },
