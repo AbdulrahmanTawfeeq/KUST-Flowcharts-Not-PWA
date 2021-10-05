@@ -55,7 +55,7 @@ button,
 :root {
   /* everything in the flowchart is responsive to this size 105px */
   --flowchart-size: 8.203vw;
-  --icon-opacity: 40%;
+  --icon-opacity: 60%;
   --icon-clickable: none;
   --border: calc((var(--flowchart-size) * 0.869) / 100) solid #ccc;
   --border-radius: calc((var(--flowchart-size) * 2.478) / 100);

@@ -218,7 +218,7 @@ function setTemplate(path) {
 
         let pdfElem = document.querySelector("nav a[title='Download PDF']");
         pdfElem.setAttribute("href", pdfPath);
-        pdfElem.setAttribute("download", "download");
+        pdfElem.setAttribute("download", `${departmentName}`);
         document
           .querySelector("nav a[title='Course Descriptions']")
           .setAttribute("href", courseDescription);
@@ -398,7 +398,9 @@ class Course {
                 <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${
       this.preTo
     }</span>
-                <span title='${this.courseName}'>${this.courseName}</span>
+                <span title='${
+                  this.courseType != "rotations" ? this.courseName : ""
+                }'>${this.courseName}</span>
                 <span>${this.preFor}</span>
             </div>
         `;

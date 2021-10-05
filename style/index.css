@@ -55,9 +55,14 @@ nav [class="icon"]:active {
   content: "";
   font-size: 14px;
   position: relative;
-  width: 20px;
+  width: 15px;
   height: 15px;
+  border-radius: 50%;
   right: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #colors > div div:first-of-type:after {
@@ -388,6 +393,7 @@ button.bars::before {
 .flowchart main section div .semester div span:first-child {
   font-size: var(--value6);
   text-align: left;
+  text-transform: uppercase;
 }
 
 .flowchart main section div .semester div span:nth-child(2) {
@@ -426,6 +432,7 @@ button.bars::before {
 
 .flowchart main section div .semester div span:last-child {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .flowchart main section div .semester div span:last-child,
