@@ -398,9 +398,7 @@ class Course {
                 <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${
       this.preTo
     }</span>
-                <span title='${
-                  this.courseType != "rotations" ? this.courseName : ""
-                }'>${this.courseName}</span>
+                <span>${this.courseName}</span>
                 <span>${this.preFor}</span>
             </div>
         `;
