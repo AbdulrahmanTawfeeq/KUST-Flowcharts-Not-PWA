@@ -206,6 +206,26 @@ async function jsonData(path) {
   return data;
 }
 
+function setTemSettings(pdfPath, departmentName, courseDescription) {
+  let pdfElem = document.querySelector("nav a[title='Download PDF']");
+  pdfElem.setAttribute("href", pdfPath);
+  pdfElem.setAttribute("download", `${departmentName}`);
+  document
+    .querySelector("nav a[title='Course Descriptions']")
+    .setAttribute("href", courseDescription);
+  document.documentElement.style.setProperty("--icon-opacity", "100%"); // :root{}
+  document.documentElement.style.setProperty("--icon-clickable", "unset");
+
+  let value = "105px";
+  if (
+    departmentName.indexOf("Pharmacy") != -1 ||
+    departmentName.indexOf("Dentistry") != -1
+  ) {
+    value = "84px";
+  }
+  document.documentElement.style.setProperty("--flowchart-size", value);
+}
+
 function setTemplate(path) {
   setTimeout(() => {
     jsonData(path)
@@ -215,15 +235,7 @@ function setTemplate(path) {
         const { departmentName, fType, courseDescription, pdfPath, years } =
           data.flowchart;
         new Flowchart(departmentName, fType, years);
-
-        let pdfElem = document.querySelector("nav a[title='Download PDF']");
-        pdfElem.setAttribute("href", pdfPath);
-        pdfElem.setAttribute("download", `${departmentName}`);
-        document
-          .querySelector("nav a[title='Course Descriptions']")
-          .setAttribute("href", courseDescription);
-        document.documentElement.style.setProperty("--icon-opacity", "100%"); // :root{}
-        document.documentElement.style.setProperty("--icon-clickable", "unset");
+        setTemSettings(pdfPath, departmentName, courseDescription);
       })
       .catch((err) => console.log(err.message));
   }, 200);

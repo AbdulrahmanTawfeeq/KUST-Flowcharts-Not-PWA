@@ -490,6 +490,11 @@ button.bars::before {
     border-left: var(--border);
   }
 
+  :root {
+    /* This is important because this value will be set in html by js when setting new flowchart */
+    --flowchart-size: 8.203vw !important;
+  }
+
   #colors .menu-items img {
     cursor: unset;
   }

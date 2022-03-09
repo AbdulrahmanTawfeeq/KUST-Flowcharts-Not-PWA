@@ -53,8 +53,8 @@ button,
 }
 
 :root {
-  /* everything in the flowchart is responsive to this size 105px */
-  --flowchart-size: 8.203vw;
+  /* everything in the flowchart is responsive to this size 105px 8.203vw*/
+  --flowchart-size: 105px;
   --icon-opacity: 60%;
   --icon-clickable: none;
   --border: calc((var(--flowchart-size) * 0.869) / 100) solid #ccc;
