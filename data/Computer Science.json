@@ -1,9 +1,9 @@
 {
     "flowchart": {
         "departmentName": "College of Science, Computer Department",
-        "fType": "",
+        "fType": "F18-F20",
         "courseDescription": "http://cps.komar.edu.iq/computer-science-courses",
-        "pdfPath": "/PDFs/College of Science, Computer Department.pdf",
+        "pdfPath": "/PDFs/Computer Science.pdf",
         "years": [{
             "yearName": "First Year (Freshman)",
             "semesters": [{

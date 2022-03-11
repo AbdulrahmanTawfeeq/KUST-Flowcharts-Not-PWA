@@ -1,9 +1,9 @@
 {
     "flowchart": {
         "departmentName": "Business Administration Department - Major in E-Commerce",
-        "fType": "",
+        "fType": "F18+",
         "courseDescription": "http://ba.komar.edu.iq/course",
-        "pdfPath": "/PDFs/Business Administration Department - Major in E-Commerce.pdf",
+        "pdfPath": "/PDFs/E-Commerce.pdf",
         "years": [{
             "yearName": "First Year (Freshman)",
             "semesters": [{

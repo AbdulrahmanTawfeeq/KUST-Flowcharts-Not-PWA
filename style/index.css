@@ -219,11 +219,11 @@ button.bars::before {
 }
 
 .flowchart > div > div:active {
-  transform: scale(0.85);
-  -webkit-transform: scale(0.85);
-  -moz-transform: scale(0.85);
-  -ms-transform: scale(0.85);
-  -o-transform: scale(0.85);
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
 }
 
 .flowchart header {
@@ -532,11 +532,22 @@ button.bars::before {
     display: flex;
     align-items: flex-end;
     padding-right: 10px;
+    background-color: white;
   }
 
   nav .close > img {
     cursor: pointer;
   }
+
+  .cover{
+    background-color: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
 
   .menu::before {
     border-color: transparent transparent #555 #555;
@@ -578,6 +589,12 @@ button.bars::before {
 @media only screen and (max-width: 768px) {
   nav > [title^="Scale"] {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 283px) {
+  nav {
+    width: 100%;
   }
 }
 

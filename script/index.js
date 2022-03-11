@@ -42,7 +42,7 @@ window.onload = () => {
         .getComputedStyle(document.querySelector("button.icon.bars"), null)
         .getPropertyValue("display") == "none"
         ? setTimeout(() => {
-            //because there is no mouse in touchscreen, the touch will be considered as mouseenten then click both together
+            //because there is no mouse in touchscreen, the touch will be considered as mouseenter then click both together
             event.target.lastElementChild.style.display = "flex";
           }, 1)
         : "";
@@ -59,10 +59,21 @@ window.onload = () => {
 
   document.querySelector(".bars").addEventListener("click", () => {
     document.querySelector("nav").style.display = "flex";
+    let cover = document.createElement("div");
+    cover.className = "cover";
+    document.body.appendChild(cover);
   });
 
   document.querySelector("nav .close").addEventListener("click", () => {
     document.querySelector("nav").style.display = "";
+    document.body.querySelector("div.cover").remove();
+  });
+
+  document.addEventListener("click", (e)=>{
+    if(e.target == document.querySelector("div.cover")){
+      document.querySelector("nav").style.display = "";
+      e.target.remove();
+    }
   });
 };
 
@@ -206,10 +217,10 @@ async function jsonData(path) {
   return data;
 }
 
-function setTemSettings(pdfPath, departmentName, courseDescription) {
+function templateSettings(pdfPath, departmentName, courseDescription) {
   let pdfElem = document.querySelector("nav a[title='Download PDF']");
   pdfElem.setAttribute("href", pdfPath);
-  pdfElem.setAttribute("download", `${departmentName}`);
+  pdfElem.setAttribute("download", `${pdfPath.split("/")[pdfPath.split("/").length-1].split(".")[0]}`);
   document
     .querySelector("nav a[title='Course Descriptions']")
     .setAttribute("href", courseDescription);
@@ -235,7 +246,7 @@ function setTemplate(path) {
         const { departmentName, fType, courseDescription, pdfPath, years } =
           data.flowchart;
         new Flowchart(departmentName, fType, years);
-        setTemSettings(pdfPath, departmentName, courseDescription);
+        templateSettings(pdfPath, departmentName, courseDescription);
       })
       .catch((err) => console.log(err.message));
   }, 200);
@@ -407,9 +418,7 @@ class Course {
                 ? "lavender-gray"
                 : "green"
             }">
-                <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${
-      this.preTo
-    }</span>
+                <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${this.preTo}</span>
                 <span>${this.courseName}</span>
                 <span>${this.preFor}</span>
             </div>

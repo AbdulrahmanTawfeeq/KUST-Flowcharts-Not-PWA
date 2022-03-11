@@ -28,6 +28,14 @@ document
           .filter((value) => {
             return value != undefined;
           });
+        // collage
+        // university
+        // departmental
+        cell.className == "cyan"
+          ? course.push("collage")
+          : cell.className == "green"
+          ? course.push("departmental")
+          : cell.className == "yellow" ? course.push("university"):"";
       }
       switch (col) {
         case 1:

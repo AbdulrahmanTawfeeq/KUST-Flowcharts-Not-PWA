@@ -1,9 +1,9 @@
 {
     "flowchart": {
-        "departmentName": "College of Engineering, Envionmental Department",
+        "departmentName": "College of Engineering, Environment Department",
         "fType": "",
         "courseDescription": "http://env.komar.edu.iq/course",
-        "pdfPath": "/PDFs/College of Engineering, Envionmental Department.pdf",
+        "pdfPath": "/PDFs/Environment Engineering.pdf",
         "years": [{
             "yearName": "First Year (Freshman)",
             "semesters": [{
