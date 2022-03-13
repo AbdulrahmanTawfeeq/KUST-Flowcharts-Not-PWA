@@ -599,10 +599,10 @@ button.bars::before {
 }
 
 @media print {
-  @page {
+  /* @page {
     size: A4;
     margin: auto;
-  }
+  } */
   nav {
     display: none;
   }

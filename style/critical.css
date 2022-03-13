@@ -179,6 +179,8 @@ button.bars {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  font-size: smaller;
+  word-spacing: 100px;
 }
 
 nav,
