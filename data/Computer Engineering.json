@@ -20,8 +20,8 @@
                     "semesterName": "Spring",
                     "courses": [
                         ["MTH1410", "Calculus II", "MTH1411", "collage"],
-                        ["MTH1410 | MTH1411", "General Physics I & Lab", "PHY1410C", "collage"],
-                        ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
+                        ["MTH1410", "General Physics I with lab", "PHY1410C", "collage"],
+                        ["EGH0615", "Introduction to  Engineering", "ENG1200", "collage"],
                         ["EGH1310", "Academic English II", "EGH1311", "university"],
                         ["EGH1310", "Academic Debate", "HUM1300", "university"]
                     ]
@@ -35,8 +35,8 @@
                     "courses": [
                         ["MTH1411", "Advanced Calculus", "MTH2412", "collage"],
                         ["PHY1410C", "General Physics II & Lab", "PHY2411C", "collage"],
-                        ["CMP1300", "Programming Concepts & Algorithms", "CPE2405C", "departmental"],
-                        ["CMP1300, CPE1410C", "Computer Logic Design", "CPE2410C", "departmental"]
+                        ["CMP1300, CPE1410C", "Programming Concepts & Algorithms", "CPE2405C", "departmental"],
+                        ["CMP1300, CPE1410C", "Computer logic Design", "CPE2410C", "departmental"]
                     ]
                 },
                 {
@@ -56,7 +56,7 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["MTH1411", "Statistics for Engineering", "MTH3325", "collage"],
+                        ["MTH1411", "Statistics For Engineering", "MTH3325", "collage"],
                         ["CPE2325", "Microprocessors", "CPE3435C", "departmental"],
                         ["CPE2315", "Data Structures", "CPE3340", "departmental"],
                         ["Dep. Approval", "Departmental Electives I", "(3 CH)", "departmental"],
@@ -67,7 +67,7 @@
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["MTH1411", "Discrete Structures", "MTH3330", "collage"],
+                        ["MTH1411", "Discrete  Structures", "MTH3330", "collage"],
                         ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
                         ["CPE3330", "Software Engineering", "CPE3345", "departmental"],
                         ["CPE2325", "Computer Communication & Network", "CPE3450C", "departmental"],
@@ -83,7 +83,7 @@
                     "courses": [
                         ["CPE2320, (80 CH)", "Circuit Analysis", "CPE4355C", "departmental"],
                         ["CPE2325", "Operating System", "CPE4360", "departmental"],
-                        ["CPE3435C", "Introduction to Embeded System", "CPE4365", "departmental"],
+                        ["CPE3435C", "Introduction to Embedded system", "CPE4365", "departmental"],
                         ["CPE2325, CPE3340", "Computer System Design", "CPE4370C", "departmental"],
                         ["Dep. Approval", "Departmental Electives II", "(3 CH)", "departmental"]
                     ]

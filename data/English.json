@@ -11,7 +11,7 @@
                     "courses": [
                         ["EGH0615", "Conversation", "EGH1200", "departmental"],
                         ["EGH0615", "Grammar I", "EGH1300", "departmental"],
-                        ["EGH0615", "Intorudction to Language", "LNG1200", "collage"],
+                        ["EGH0615", "Introduction to Language", "LNG1200", "collage"],
                         ["EGH0615 | EGH1300", "College Reading I", "LNG1305", "collage"],
                         ["EGH0615", "Foreign Language I", "FLG1205", "collage"],
                         ["EGH0615", "Computer Skills", "CMP1300", "university"]
@@ -24,7 +24,7 @@
                         ["EGH1300", "Grammar II", "EGH1305", "departmental"],
                         ["LNG1200", "Introduction to Linguistics", "LNG1205", "collage"],
                         ["LNG1305 | EGH1305", "College Writing I", "LNG1310", "collage"],
-                        ["FLG1205", "Foreign Language II", "FLG1210", "collage"],
+                        ["FLG1205", "Foreign Language   II", "FLG1210", "collage"],
                         ["EGH1200", "Academic Debate", "HUM1300", "university"],
                         ["EGH0615", "Kurdology", "SOS1205", "university"]
                     ]
@@ -41,7 +41,7 @@
                         ["LNG1205", "Phonetics", "EGH2200", "departmental"],
                         ["EGH1305", "Grammar III", "EGH2220", "departmental"],
                         ["FLG1210", "Foreign Language III", "FLG2205", "collage"],
-                        ["LNG1310 | EGH2220", "College Reading II", "LNG2300", "collage"]
+                        ["LNG1310-EGH2220", "College Reading II", "LNG2300", "collage"]
                     ]
                 },
                 {
@@ -76,7 +76,7 @@
                         ["HUM3215", "Critical Approaches to Literature", "LIT3310", "departmental"],
                         ["LIT3305", "Exploring Drama II", "LIT3315", "departmental"],
                         ["EGH3205", "Semantics", "LNG3200", "departmental"],
-                        ["(70 CH)", "Intro. to Applied Linguisites", "LNG3205", "collage"],
+                        ["70 CH", "Intro. to Applied linguistics", "LNG3205", "collage"],
                         ["TRN3200", "Translation II", "TRN3205", "collage"],
                         ["N/A", "Elective", "(3 CH)", "university"]
                     ]

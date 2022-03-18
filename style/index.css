@@ -208,13 +208,12 @@ nav .close {
 
 button.bars > img {
   cursor: pointer;
-  margin-right: 10px;
 }
 
 button.bars::before {
   content: "KUST";
   position: absolute;
-  left: 10px;
+  right: calc(100vw - 80px);
   color: #333 !important;
 }
 
@@ -404,6 +403,10 @@ button.bars::before {
   text-align: center;
 }
 
+.flowchart main section div .semester div span:nth-child(2):hover{
+  overflow-wrap: break-word;
+}
+
 .flowchart main section div .semester div.rotations {
   height: calc((var(--flowchart-size) * 269.565) / 100);
 }
@@ -474,6 +477,10 @@ button.bars::before {
 }
 
 @media only screen and (max-width: 982px) {
+  nav > [title^="Scale"] {
+    display: none;
+  }
+  
   nav {
     display: none;
     flex-flow: column nowrap;
@@ -501,6 +508,18 @@ button.bars::before {
 
   button.bars {
     display: flex;
+    position: relative;
+    border: 0;
+  }
+
+  button.bars::after {
+    content: "";
+    width: 100vw;
+    height: calc((var(--flowchart-size) * 0.869) / 100);
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    background-color: #ccc;    
   }
 
   nav .close:focus,
@@ -587,9 +606,7 @@ button.bars::before {
 }
 
 @media only screen and (max-width: 768px) {
-  nav > [title^="Scale"] {
-    display: none;
-  }
+  
 }
 
 @media only screen and (max-width: 283px) {

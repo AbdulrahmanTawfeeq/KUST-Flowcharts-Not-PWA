@@ -57,7 +57,7 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["EGH1311", "Business Legal & Social Enviroment", "BUS3335", "collage"],
+                        ["EGH1311", "Business Legal & Social Environment", "BUS3335", "collage"],
                         ["MTH1405", "Statistics for Business", "MTH3327", "collage"],
                         ["BUS2325", "Marketing Management", "BUA3315", "departmental"],
                         ["BUS2325", "Hospitality & Tourism Market", "MKT3305", "departmental"],
@@ -69,7 +69,7 @@
                     "courses": [
                         ["MTH3327", "Quantitative Methods", "BUS3340", "collage"],
                         ["BUS2320", "Managing People & Organization", "BUS3345", "collage"],
-                        ["CMP2305", "Managing Info. System", "INF3311", "collage"],
+                        ["CMP2305", "Management Info. System", "INF3311", "collage"],
                         ["MKT3305", "Ad. & Promo. Management", "MKT3310", "departmental"],
                         ["BUS2311", "International Finance", "BUA4325", "departmental"],
                         ["EGH3215", "Research Methodology", "HUM3215", "university"]
@@ -93,7 +93,7 @@
                     "semesterName": "Spring",
                     "courses": [
                         ["BUS2320", "Operations Management", "BUS4360", "collage"],
-                        ["BUA3315", "Marketing Analysis& Strategy", "MKT4325", "departmental"],
+                        ["BUA3315", "Marketing Analysis & Strategy", "MKT4325", "departmental"],
                         ["Dep. Approval", "Graduation Project", "BUA4495", "departmental"],
                         ["MTH1300", "HUM/Social Elective", "(3 CH)", "university"],
                         ["MTH1300", "Science Elective II", "(3 CH)", "university"]

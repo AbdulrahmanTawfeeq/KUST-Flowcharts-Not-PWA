@@ -58,6 +58,7 @@ window.onload = () => {
   });
 
   document.querySelector(".bars").addEventListener("click", () => {
+    document.querySelector(".cover") != null ? document.querySelector(".cover").remove():"";
     document.querySelector("nav").style.display = "flex";
     let cover = document.createElement("div");
     cover.className = "cover";

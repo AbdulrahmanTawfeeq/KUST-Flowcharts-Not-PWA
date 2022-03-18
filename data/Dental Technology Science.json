@@ -1,0 +1,118 @@
+{
+    "flowchart": {
+        "departmentName": "College of Science, Dental Technology Department",
+        "fType": "",
+        "courseDescription": "http://mls.komar.edu.iq/course",
+        "pdfPath": "/PDFs/Dental Technology Science.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Academic  English 1", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Medical Chemistry", "DEN1310", "departmental"],
+                        ["EGH0615", "General Medical Biology", "MED1300C", "collage"],
+                        ["EGH0615", "Medical  Terminology", "MED1100", "collage"],
+                        ["EGH0615", "College  Physics", "PHY1300", "collage"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"],
+                        ["MED1300C", "Basic Head & Neck Anatomy", "DET1200C", "departmental"],
+                        ["MED1100", "Dental Anatomy", "DEN1400C", "departmental"],
+                        ["DEN1310, PHY1300", "Dental Materials I", "DEN2205C", "departmental"],
+                        ["MED1100", "Lab Safety", "DET1100", "departmental"],
+                        ["MED1100", "Dental Device Technology", "DET1300C", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MED1300C", "Microbiology I", "MED2300C", "collage"],
+                        ["MED1300C", "Oral Histology & Embryology", "DEN2300C", "departmental"],
+                        ["DEN1400C", "Crown & Bridge Dental Lab I", "DET2200C", "departmental"],
+                        ["DEN2205C", "Partial Denture I", "DET2205C", "departmental"],
+                        ["DEN2205C", "Complete Denture I", "DET2210C", "departmental"],
+                        ["DEN2205C", "Dental  Material II", "DEN4244C", "departmental"],
+                        ["MED1300C", "Oral Physio. & Oral Pathology", "DET2215C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MED2300C", "Microbiology II", "MED2310C", "collage"],
+                        ["DET2200C", "Crown & Bridge Dental Lab II", "DET2220C", "departmental"],
+                        ["DET2205C", "Partial Denture II", "DET2225C", "departmental"],
+                        ["DET2210C", "Complete Denture II", "DET2230C", "departmental"],
+                        ["DET2200C", "Digital Dentistry & CAD/CAM I", "DET2235C", "departmental"],
+                        ["DET2215C", "Oral Health Community & Dental Ethics", "DEN3225", "departmental"],
+                        ["HUM1300", "Professional Communication", "EGH3215", "university"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DET2220C", "Crown & Bridge Dental Lab III", "DET3200C", "departmental"],
+                        ["DET2225C", "Partial Denture III", "DET3210C", "departmental"],
+                        ["DET2230C", "Complete Denture III", "DET3220C", "departmental"],
+                        ["DEN1400C", "Orthodonic Dental Lab I", "DET3230C", "departmental"],
+                        ["DET2235C", "Digital Dentistry & CAD/CAM II", "DET3340C", "departmental"],
+                        ["MED2310C", "Infection Control", "DEN3120", "departmental"],
+                        ["Dep. Approval", "Elective I", "DET3200", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DET3200C", "Crown & Bridge Dental Lab IV", "DET3250C", "departmental"],
+                        ["DET3210C", "Partial Denture IV", "DET3260C", "departmental"],
+                        ["DET3200C", "Complete Denture IV", "DET3270C", "departmental"],
+                        ["DET3230C", "Orthodonic DentalLab II", "DET3280C", "departmental"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"],
+                        ["Dep. Approval", "Elective II", "DET3200", "departmental"],
+                        ["35 CH", "Biostatistic", "MTH3320", "departmental"]
+                    ]
+                }
+            ],
+            "internship": ["Internship", "DET0000"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["DET3270C", "Maxillofacial Prosthetics I", "DET4200", "departmental"],
+                        ["DET3260C", "Ceramics I", "DET4201", "departmental"],
+                        ["DET3280C", "Orthodonic Dental Lab III", "DET4222C", "departmental"],
+                        ["DET3250C", "Implant I", "DET4233C", "departmental"],
+                        ["DET3270C", "Field  Placement I", "DET4244C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["DET4200", "Maxillofacial Prosthetics II", "DET4255", "departmental"],
+                        ["DET4233C", "Implant II", "DET4266", "departmental"],
+                        ["DET4244C", "Applied  Management Practice", "DET4288", "departmental"],
+                        ["DET4244C", "Field  Placement II", "DET42488", "departmental"],
+                        ["HUM3215, MTH3320", "Graduation  Project", "KGP4495", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

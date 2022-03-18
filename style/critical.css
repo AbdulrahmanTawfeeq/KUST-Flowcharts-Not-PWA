@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; */
 }
 html {
   background-color: whitesmoke;
@@ -102,13 +103,13 @@ nav {
 }
 
 button.bars {
-  margin: auto;
   display: none;
-  width: 100%;
+  width: fit-content;
   height: 50px;
   justify-content: center;
-  align-items: flex-end;
   cursor: unset;
+  margin-right: 10px;
+  align-self: flex-end; /* Because the body is flex*/
 }
 
 .icon {
@@ -133,10 +134,12 @@ button.bars {
   transform-origin: center top;
   padding: var(--value6);
   overflow: visible;
-  min-height: calc((var(--flowchart-size) * 741.238) / 100);
+  /* height: fit-content;
+  width: fit-content; */
+  /* min-height: calc((var(--flowchart-size) * 741.238) / 100);
   min-width: calc((var(--flowchart-size) * 937.879) / 100);
   max-height: calc((var(--flowchart-size) * 1106.81) / 100);
-  max-width: calc((var(--flowchart-size) * 1169.753) / 100);
+  max-width: calc((var(--flowchart-size) * 1169.753) / 100); */
   display: flex;
   flex-flow: column;
   z-index: 1;
@@ -181,6 +184,26 @@ button.bars {
   -o-border-radius: 5px;
   font-size: smaller;
   word-spacing: 100px;
+}
+
+.flowchart > div > div[college="Languages"]{
+  background-color: #dd8ca8;
+}
+
+.flowchart > div > div[college="Medicine"]{
+  background-color: #26a69a;
+}
+
+.flowchart > div > div[college="Business"]{
+  background-color: #9ccc65d9;
+}
+
+.flowchart > div > div[college="Engineering"]{
+  background-color: #9a908f
+}
+
+.flowchart > div > div[college="Science"]{
+  background-color:  #ffab91
 }
 
 nav,
