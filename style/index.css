@@ -128,7 +128,8 @@ nav [class="icon"]:active {
 
 nav > [title~="PDF"],
 nav > [title~="Course"],
-nav > [title^="Scale"] {
+nav > [title^="Scale"],
+#colors {
   opacity: var(--icon-opacity);
   pointer-events: var(--icon-clickable);
 }
@@ -212,9 +213,9 @@ button.bars > img {
 
 button.bars::before {
   content: "KUST";
+  color: #333;
   position: absolute;
-  right: calc(100vw - 80px);
-  color: #333 !important;
+  left: calc(-100vw + 75px);
 }
 
 .flowchart > div > div:active {
@@ -403,7 +404,7 @@ button.bars::before {
   text-align: center;
 }
 
-.flowchart main section div .semester div span:nth-child(2):hover{
+.flowchart main section div .semester div span:nth-child(2):hover {
   overflow-wrap: break-word;
 }
 
@@ -480,7 +481,7 @@ button.bars::before {
   nav > [title^="Scale"] {
     display: none;
   }
-  
+
   nav {
     display: none;
     flex-flow: column nowrap;
@@ -510,6 +511,9 @@ button.bars::before {
     display: flex;
     position: relative;
     border: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
   }
 
   button.bars::after {
@@ -519,7 +523,7 @@ button.bars::before {
     position: absolute;
     bottom: 0;
     right: -10px;
-    background-color: #ccc;    
+    background-color: #ccc;
   }
 
   nav .close:focus,
@@ -558,15 +562,15 @@ button.bars::before {
     cursor: pointer;
   }
 
-  .cover{
-    background-color: rgba(0,0,0,0.4);
+  .cover {
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100vw;
     height: 100vh;
     position: fixed;
     z-index: 4;
     top: 0;
     left: 0;
-}
+  }
 
   .menu::before {
     border-color: transparent transparent #555 #555;
@@ -606,7 +610,28 @@ button.bars::before {
 }
 
 @media only screen and (max-width: 768px) {
-  
+}
+
+@media only screen and (max-width: 499px) {
+  .flowchart > div > div[college="Languages"] {
+    background-color: #dd8cddea;
+  }
+
+  .flowchart > div > div[college="Medicine"] {
+    background-color: #6c9ab4;
+  }
+
+  .flowchart > div > div[college="Business"] {
+    background-color: #aeca8fce;
+  }
+
+  .flowchart > div > div[college="Engineering"] {
+    background-color: #8c83ace7;
+  }
+
+  .flowchart > div > div[college="Science"] {
+    background-color: #dd8ca8ce;
+  }
 }
 
 @media only screen and (max-width: 283px) {

@@ -1,11 +1,12 @@
 /**
+ * (C)
  * Author: Abdulrahman Tawfeeq,
  * email: abdulrahman.tofiqf18@komar.edu.iq
  */
 
 window.onload = () => {
   document
-    .querySelectorAll("#departments .menu-items div")
+    .querySelectorAll("#departments .menu-items :not(h3)")
     .forEach((department) => {
       document
         .querySelector("#flowchart>div")
@@ -58,7 +59,9 @@ window.onload = () => {
   });
 
   document.querySelector(".bars").addEventListener("click", () => {
-    document.querySelector(".cover") != null ? document.querySelector(".cover").remove():"";
+    document.querySelector(".cover") != null
+      ? document.querySelector(".cover").remove()
+      : "";
     document.querySelector("nav").style.display = "flex";
     let cover = document.createElement("div");
     cover.className = "cover";
@@ -70,12 +73,26 @@ window.onload = () => {
     document.body.querySelector("div.cover").remove();
   });
 
-  document.addEventListener("click", (e)=>{
-    if(e.target == document.querySelector("div.cover")){
+  document.addEventListener("click", (e) => {
+    if (e.target == document.querySelector("div.cover")) {
       document.querySelector("nav").style.display = "";
       e.target.remove();
     }
   });
+
+  let keywords = "Komar University, Flowchart";
+  document.querySelectorAll("#flowchart div div").forEach((div) => {
+    keywords += div.textContent + ", ";
+  });
+  document
+    .querySelector("meta[name^='revised']")
+    .setAttribute("content", Date());
+  document
+    .querySelector("meta[name^='keywords']")
+    .setAttribute("content", keywords);
+  document.getElementsByTagName(
+    "head"
+  )[0].innerHTML += `<meta name="author" content="name: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq">`;
 };
 
 function addSpecificListeners(elem) {
@@ -221,12 +238,16 @@ async function jsonData(path) {
 function templateSettings(pdfPath, departmentName, courseDescription) {
   let pdfElem = document.querySelector("nav a[title='Download PDF']");
   pdfElem.setAttribute("href", pdfPath);
-  pdfElem.setAttribute("download", `${pdfPath.split("/")[pdfPath.split("/").length-1].split(".")[0]}`);
+  pdfElem.setAttribute(
+    "download",
+    `${pdfPath.split("/")[pdfPath.split("/").length - 1].split(".")[0]}`
+  );
   document
     .querySelector("nav a[title='Course Descriptions']")
     .setAttribute("href", courseDescription);
   document.documentElement.style.setProperty("--icon-opacity", "100%"); // :root{}
   document.documentElement.style.setProperty("--icon-clickable", "unset");
+  document.getElementById("colors").removeAttribute("disabled");
 
   let value = "105px";
   if (
@@ -419,7 +440,9 @@ class Course {
                 ? "lavender-gray"
                 : "green"
             }">
-                <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${this.preTo}</span>
+                <span title='${this.preTo.length > 17 ? this.preTo : ""}'>${
+      this.preTo
+    }</span>
                 <span>${this.courseName}</span>
                 <span>${this.preFor}</span>
             </div>
@@ -445,6 +468,7 @@ class Course {
   }
 }
 /**
+ * (C)
  * Author: Abdulrahman Tawfeeq,
  * email: abdulrahman.tofiqf18@komar.edu.iq
  */
