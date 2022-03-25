@@ -19,7 +19,7 @@
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["EGH0615", "General Chemistry", "CHM1410C", "collage"],
+                        ["EGH0615", "General Chemistry & Lab", "CHM1410C", "collage"],
                         ["MTH1300", "College Physics", "PHY1300", "collage"],
                         ["HSC1200", "Cell Biology & Genetics", "BIO1310", "departmental"],
                         ["EGH1310", "Academic English II", "EGH1311", "university"],
@@ -33,19 +33,19 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["CHM1410C", "Analytical Chemistry", "CHM2411C", "collage"],
+                        ["CHM1410C", "Analytical Chemistry & Lab", "CHM2411C", "collage"],
                         ["EGH1311", "General Psychology", "SOS2315", "collage"],
                         ["BIO1310", "Human Biology", "BIO2311", "departmental"],
-                        ["HSC1200", "Introduction to Micro", "MLS2405C", "departmental"]
+                        ["HSC1200", "Introduction to Microbiology", "MLS2405C", "departmental"]
                     ]
                 },
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["CHM2411C", "Biochemistry", "CHM2415C", "collage"],
-                        ["BIO2311", "Human Physiology", "MLS2415C", "departmental"],
-                        ["BIO2311", "Principle of Haematology", "MLS2410C", "departmental"],
-                        ["MLS2405C", "Medical Parasitology", "MLS2420C", "departmental"]
+                        ["CHM2411C", "Biochemistry & Lab", "CHM2415C", "collage"],
+                        ["BIO2311", "Human Physiology & Lab", "MLS2415C", "departmental"],
+                        ["BIO2311", "Principle of Haematology & Lab", "MLS2410C", "departmental"],
+                        ["MLS2405C", "Medical Parasitology & Lab", "MLS2420C", "departmental"]
                     ]
                 }
             ],
@@ -56,8 +56,8 @@
                     "semesterName": "Fall",
                     "courses": [
                         ["MTH1300", "Biostatistics", "MTH3320", "collage"],
-                        ["MLS2405C", "Immunology", "MLS3425C", "departmental"],
-                        ["MLS2405C", "Medical Bacteriology", "MLS3430C", "departmental"],
+                        ["MLS2405C", "Immunology & Lab", "MLS3425C", "departmental"],
+                        ["MLS2405C", "Medical Bacteriology & Lab", "MLS3430C", "departmental"],
                         ["MLS2410C", "Clinical Haematology", "MLS3336", "departmental"],
                         ["EGH1311", "Professional Communication", "EGH3215", "university"]
                     ]
@@ -65,10 +65,10 @@
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["CHM2415C", "Clinical Chemistry", "MLS3445C", "departmental"],
+                        ["CHM2415C", "Clinical Chemistry & Lab", "MLS3445C", "departmental"],
                         ["CHM2415C", "Principles of Pharmacology", "MLS3256", "departmental"],
-                        ["MLS2405C, CHM2415C", "Molecular Biology", "MLS3435C", "departmental"],
-                        ["MLS2415C, MLS2410C", "Histopathology", "MLS3437C", "departmental"],
+                        ["MLS2405C, CHM2415C", "Molecular Biology & Lab", "MLS3435C", "departmental"],
+                        ["MLS2415C, MLS2410C", "Histopathology & Lab", "MLS3437C", "departmental"],
                         ["EGH3215", "Research Methodology", "HUM3215", "university"]
                     ]
                 }
@@ -79,9 +79,9 @@
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
-                        ["MLS3336, MLS3425C", "Phlebotomy Diagnostic Techniques", "MLS4440C", "departmental"],
-                        ["MLS3445C, MLS3425C", "Body Fluid Analysis", "MLS4455C", "departmental"],
-                        ["MLS3430C, MLS3425C", "Medical Virology", "MLS4460C", "departmental"],
+                        ["MLS3336, MLS3425C", "Phlebotomy Diagnostic Techniques & Lab", "MLS4440C", "departmental"],
+                        ["MLS3445C, MLS3425C", "Body Fluid Analysis & Lab", "MLS4455C", "departmental"],
+                        ["MLS3430C, MLS3425C", "Medical Virology & Lab", "MLS4460C", "departmental"],
                         ["MLS3430C, MLS3445C", "Ch. Lab Management & Quality Control", "MLS4365", "departmental"]
                     ]
                 },

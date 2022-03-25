@@ -20,7 +20,7 @@
                     "semesterName": "Spring",
                     "courses": [
                         ["MTH1410", "Calculus II", "MTH1411", "collage"],
-                        ["MTH1410 | MTH1411", "General Physics I with Lab", "PHY1410C", "collage"],
+                        ["MTH1410", "General Physics I with Lab", "PHY1410C", "collage"],
                         ["EGH0615", "Introduction to Engineering", "ENG1200", "collage"],
                         ["EGH1310", "Academic English II", "EGH1311", "university"],
                         ["EGH1310", "Academic Debate", "HUM1300", "university"]
@@ -48,7 +48,7 @@
                         ["Dep. Approval", "Science Elective", "(3 CH)", "collage"],
                         ["MEE2405", "Engineering Thermodynamic", "MEE2310", "collage"],
                         ["MEE2405", "Fluid Mechanics", "MEE2315C", "departmental"],
-                        ["ENG1200", "Engineering Survery with Lab", "CVE2310C", "departmental"]
+                        ["ENG1200", "Engineering Survey with Lab", "CVE2310C", "departmental"]
                     ]
                 }
             ],
@@ -105,3 +105,4 @@
     }
 
 }
+

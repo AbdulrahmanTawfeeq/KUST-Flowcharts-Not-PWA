@@ -80,16 +80,6 @@ window.onload = () => {
     }
   });
 
-  let keywords = "Komar University, Flowchart";
-  document.querySelectorAll("#flowchart div div").forEach((div) => {
-    keywords += div.textContent + ", ";
-  });
-  document
-    .querySelector("meta[name^='revised']")
-    .setAttribute("content", Date());
-  document
-    .querySelector("meta[name^='keywords']")
-    .setAttribute("content", keywords);
   document.getElementsByTagName(
     "head"
   )[0].innerHTML += `<meta name="author" content="name: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq">`;
@@ -370,7 +360,23 @@ class Year {
   }
 
   getYearCredits() {
-    return this.yearCredits;
+    return this.yearCredits + this.getInternshipCredit();
+  }
+
+  getInternshipCredit() {
+    if (this.internship != null) {
+      if (this.internship[1].length >= 7) {
+        if (Number.isInteger(parseInt(this.internship[1][4]))) {
+          return parseInt(this.internship[1][4]);
+        } else {
+          return 0;
+        }
+      } else {
+        return 0;
+      }
+    } else {
+      return 0;
+    }
   }
 }
 

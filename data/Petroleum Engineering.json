@@ -21,7 +21,7 @@
                     "semesterName": "Spring",
                     "courses": [
                         ["MTH1410", "Calculus II", "MTH1411", "collage"],
-                        ["MTH1410 | MTH1411", "General Physics I & Lab", "PHY1410C", "collage"],
+                        ["MTH1410", "General Physics I & Lab", "PHY1410C", "collage"],
                         ["ENG1200", "Physical Geology", "PTE1310C", "departmental"],
                         ["EGH1310", "Academic English II", "EGH1311", "university"],
                         ["EGH1310", "Academic Debate", "HUM1300", "university"]
@@ -71,7 +71,7 @@
                         ["EGH3215", "Engineering Economy", "ENC3310", "collage"],
                         ["PTE3310C, PTE3315C", "Reservoir Eng. Fundamental", "PTE3320", "departmental"],
                         ["PTE3325", "Drill & Completion I", "PTE3335", "departmental"],
-                        ["Dep. Approval", "Department Elective", "(3 CH)", "departmental"],
+                        ["Dep. Approval", "Department Elective I", "(3 CH)", "departmental"],
                         ["Dep. Approval", "Social Science Elective", "(3 CH)", "university"]
                     ]
                 }
@@ -85,7 +85,7 @@
                         ["PTE3335", "Petroleum Product Eng. I", "PTE4330", "departmental"],
                         ["PTE3320", "Reservoir Management and Monitoring", "PTE4345", "departmental"],
                         ["PTE3335", "Drill & Completion II", "PTE4336", "departmental"],
-                        ["Dep. Approval", "Department Elective", "(3 CH)", "departmental"],
+                        ["Dep. Approval", "Department Elective II", "(3 CH)", "departmental"],
                         ["PTE3320", "Well Test Analysis", "PTE4370", "departmental"]
                     ]
                 },

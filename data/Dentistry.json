@@ -21,8 +21,8 @@
                 {
                     "semesterName": "Spring",
                     "courses": [
-                        ["MED1300C", "Dental Anatomy", "DEN1400C", "departmental"],
-                        ["MED1300C, MED1100", "Human Anatomy", "MED1310C", "collage"],
+                        ["MED1305C", "Dental Anatomy", "DEN1400C", "departmental"],
+                        ["MED1100", "Human Anatomy", "MED1310C", "collage"],
                         ["MED1300C", "Genetics", "MED1200", "collage"],
                         ["EGH1310", "Academic English II", "EGH1311", "university"],
                         ["EGH1310", "Academic Debate", "HUM1300", "university"]
@@ -38,9 +38,9 @@
                         ["DEN1400C", "Preclinical Prosthodontics I", "DEN2200C", "departmental"],
                         ["MED1310C", "Head & Neck Anatomy I", "DEN2220C", "departmental"],
                         ["MED1310C", "General Histology", "MED2305C", "collage"],
-                        ["DEN1310C", "Biochemistry", "CHM2415C", "collage"],
+                        ["DEN1310C", "Biochemistry & Lab", "CHM2415C", "collage"],
                         ["MED1200", "Microbiology I", "MED2300C", "collage"],
-                        ["MED1310C", "Human Physiology", "MED2405C", "collage"]
+                        ["MED1200", "Human Physiology", "MED2405C", "collage"]
                     ]
                 },
                 {
@@ -48,7 +48,7 @@
                     "courses": [
                         ["DEN2200C", "Preclinical Prosthodontics II", "DEN2210C", "departmental"],
                         ["DEN2220C", "Head & Neck Anatomy II", "DEN2225C", "departmental"],
-                        ["DEN2200C", "Dental Materials I", "DEN2205C", "departmental"],
+                        ["CHM2415C, DEN2200C", "Dental Materials I", "DEN2205C", "departmental"],
                         ["MED2305C", "Oral Histology & Embryology", "DEN2300C", "departmental"],
                         ["MED2405C", "Oral Physiology", "DEN2200", "departmental"],
                         ["DEN2200C", "Preclinical Operative Dentistry I", "DEN2202C", "departmental"],
@@ -65,12 +65,12 @@
                     "courses": [
                         ["DEN2210C", "Preclinical Prosthodontics III", "DEN3200C", "departmental"],
                         ["DEN2202C", "Preclinical Operative Dentistry II", "DEN3216C", "departmental"],
-                        ["CHM2415C", "General Pharmacology I", "DEN3211", "departmental"],
+                        ["CHM2415C, DEN2205C", "General Pharmacology I", "DEN3211", "departmental"],
                         ["DEN2200", "Medical Psychology", "DEN3205", "departmental"],
                         ["DEN2225C", "Oral & Maxillofacial Radiology I", "DEN3213C", "departmental"],
                         ["DEN2202C", "Preclinical Crown & Bridge I", "DEN3241C", "departmental"],
                         ["(40 CH)", "Biostatics", "MTH3320", "collage"],
-                        ["MED2305C, MED2200", "Gerleral Pathology", "MED3300C", "collage"],
+                        ["MED2200", "General Pathology", "MED3300C", "collage"],
                         ["EGH1311", "Professional Communication", "EGH3215", "university"]
                     ]
                 },
@@ -83,25 +83,25 @@
                         ["DEN3211", "General Pharmacology II", "DEN3212", "departmental"],
                         ["DEN3205", "General Medicine", "DEN3300C", "departmental"],
                         ["DEN3213C", "Oral & Maxillofacial Radiology II", "DEN3214C", "departmental"],
-                        ["MTH3320", "Oral Community Health & Dental Ethics", "DEN3225", "departmental"],
+                        ["MTH3320", "Oral Health Community & Dental Ethics", "DEN3225", "departmental"],
                         ["MED3300C", "Basic Periodontology", "DEN3110", "departmental"],
-                        ["MED3300C", "Infection Control", "DEN3120", "departmental"]
+                        ["MED2310C", "Infection Control", "DEN3120", "departmental"]
                     ]
                 }
             ],
-            "internship": ["Practical Training 1", "KPT3050"]
+            "internship": ["Practical Training 1", "KPT3350"]
         }, {
             "yearName": "Fourth Year (Senior)",
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
                         ["DEN3215C", "Prosthodontics I", "DEN4210C", "departmental"],
-                        ["DEN3210C", "Conservative Dentistry I", "DEN4200C", "departmental"],
+                        ["DEN3210C, DEN3214C", "Conservative Dentistry I", "DEN4200C", "departmental"],
                         ["DEN3220C", "Oral Surgery I", "DEN4310C", "departmental"],
-                        ["MED3300C", "Oral & Maxillofacial Pathology I", "DEN4305C", "departmental"],
-                        ["DEN3110", "Preiodontics I", "DEN4215C", "departmental"],
+                        ["MED3300C, DEN2300C", "Oral & Maxillofacial Pathology I", "DEN4305C", "departmental"],
+                        ["DEN3110, DEN3120", "Preiodontics I", "DEN4215C", "departmental"],
                         ["DEN2205C", "Dental Materials II", "DEN4244C", "departmental"],
-                        ["DEN3300C", "Preclinical Oral Medicine & Medical Emergencies", "DEN4230C", "departmental"],
+                        ["DEN3300C, DEN3212", "Management of Medically Compromised Patients", "DEN4230C", "departmental"],
                         ["DEN3241C", "Preclinical Crown & Bridge II", "DEN4231C", "departmental"],
                         ["EGH3215", "Research Methodology", "HUM3215", "university"]
                     ]
@@ -110,31 +110,32 @@
                     "semesterName": "Spring",
                     "courses": [
                         ["DEN4210C", "Prosthodontics II", "DEN4235C", "departmental"],
-                        ["DEN4200C", "Conservative Dentistry II", "DEN4220C", "departmental"],
+                        ["DEN4200C, DEN4244C", "Conservative Dentistry II", "DEN4220C", "departmental"],
                         ["DEN4310C", "Oral Surgery II", "DEN4330C", "departmental"],
                         ["DEN4305C", "Oral & Maxillofacial Pathology II", "DEN4325C", "departmental"],
                         ["DEN4215C", "Preiodontics II", "DEN4225C", "departmental"],
                         ["DEN3225", "Community Dentistry", "DEN4240", "departmental"],
                         ["DEN4230C", "Oral Medicine I", "DEN4241C", "departmental"],
-                        ["KPT3050", "Preclinical Orthodontics", "DEN4205C", "departmental"],
+                        ["KPT3350", "Preclinical Orthodontics", "DEN4205C", "departmental"],
                         ["DEN4200C", "Preclinical Pedodentics", "DEN4245C", "departmental"],
                         ["HUM3215", "Evidence Based Dentistry", "DEN4105", "departmental"]
                     ]
                 }
             ],
-            "internship": ["Practical Training 2", "KPT3051"]
+            "internship": ["Practical Training 2", "KPT4451"]
         }, {
             "yearName": "Fifth Year (Super Senior)",
             "semesters": [{
                     "semesterName": "Fall",
                     "courses": [
                         ["DEN4235C", "Prosthodontics III", "DEN5215C", "departmental"],
-                        ["DEN4220C", "Conservative Dentistry III", "DEN5300C", "departmental"],
+                        ["DEN4220C, DEN4231C", "Conservative  Dentistry III", "DEN5300C", "departmental"],
                         ["DEN4330C", "Oral Surgery III", "DEN5310C", "departmental"],
                         ["DEN4205C", "Orthodontics I", "DEN5205C", "departmental"],
                         ["DEN4225C", "Preiodontics III", "DEN5209C", "departmental"],
-                        ["DEN4245C", "Pedodentics I", "DEN5220C", "departmental"],
-                        ["DEN4241C", "Oral Medicine II", "DEN5225C", "departmental"]
+                        ["DEN4245C, DEN4240", "Pedodentics I", "DEN5220C", "departmental"],
+                        ["DEN4241C, DEN4325C", "Oral Medicine II", "DEN5225C", "departmental"],
+                        ["DEN4105 & Dep. Approval", "Graduation Project", "DEN5495", "departmental"]
                     ]
                 },
                 {
@@ -146,8 +147,7 @@
                         ["DEN5205C", "Orthodontics II", "DEN5235C", "departmental"],
                         ["DEN5220C", "Pedodentics II", "DEN5245C", "departmental"],
                         ["DEN5300C", "Advanced Esthetic Dentistry*", "DEN5250C", "optional"],
-                        ["DEN5300C", "Digital Dentistry*", "DEN5151", "optional"],
-                        ["Dep. Approval", "Graduation Project", "KGP4495", "departmental"]
+                        ["DEN5300C", "Digital Dentistry*", "DEN5151", "optional"]
                     ]
                 }
             ],

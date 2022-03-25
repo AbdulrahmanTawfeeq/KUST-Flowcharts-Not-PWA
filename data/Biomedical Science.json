@@ -1,0 +1,107 @@
+{
+    "flowchart": {
+        "departmentName": "College of Science, Biomedical Science Department",
+        "fType": "",
+        "courseDescription": "http://mls.komar.edu.iq/course",
+        "pdfPath": "/PDFs/Biomedical Science.pdf",
+        "years": [{
+            "yearName": "First Year (Freshman)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["EGH0615", "Academic English I", "EGH1310", "university"],
+                        ["EGH0615", "Kurdology", "SOS1205", "university"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
+                        ["EGH0615", "Principles of Medical Biology", "BMS1200", "departmental"],
+                        ["EGH0615", "General Chemistry & Lab", "CHM1410C", "collage"],
+                        ["EGH0615", "Cell Biology & Lab", "BMS1300C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH1310", "Academic English II", "EGH1311", "university"],
+                        ["EGH1310", "Academic Debate", "HUM1300", "university"],
+                        ["BMS1300C", "Human Genetics & Lab", "BMS1301C", "departmental"],
+                        ["EGH0615", "Medical Biophysics", "MED1305C", "collage"],
+                        ["BMS1200", "Human Anatomy", "MED1310C", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Second Year (Sophomore)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BMS1300C", "Microbiology I", "MED2300C", "collage"],
+                        ["BMS1200", "Human Microphysiology", "MED2405C", "collage"],
+                        ["CHM1410C", "Bioorganic Chemistry", "BMS2300C", "departmental"],
+                        ["BMS1300C", "Introduction to Lab Techniques & Lab", "BMS2301C", "departmental"],
+                        ["BMS1300C, BMS1301C", "Bioethics & Biosafety", "BMS2205", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["MED2300C", "Microbiology II", "MED2310C", "collage"],
+                        ["BMS2300C", "Clinical Chemistry & Lab", "MLS3445C", "collage"],
+                        ["MED1310C", "General Histology", "MED2305C", "collage"],
+                        ["MED1310C", "Foundation in Neuroscience", "BMS2210", "departmental"],
+                        ["MED2405C", "Principle of Haematology & Lab", "MLS2410C", "collage"]
+                    ]
+                }
+            ],
+            "internship": null
+        }, {
+            "yearName": "Third Year (Junior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["MED2305C", "General Pathology", "MED3300C", "collage"],
+                        ["MED2300C", "Immunology & Lab", "MLS3425C", "collage"],
+                        ["BMS2300C", "Fundamentals of Nutrition Science", "NUR2335", "departmental"],
+                        ["BMS1300C", "Molecular Biology & Lab", "MLS3435C", "collage"],
+                        ["EGH1311", "Professional Communication", "EGH3215", "university"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["EGH0615", "Biostatistics", "MTH3320", "collage"],
+                        ["BMS2300C", "Principal of Medicinal Chemistry & Lab", "BMS3305C", "departmental"],
+                        ["MLS3435C", "r-DNA Technology & Lab", "BMS3410C", "departmental"],
+                        ["BMS2210", "Medical Psychology", "BMS3200", "collage"],
+                        ["EGH3215", "Research Methodology", "HUM3215", "university"]
+                    ]
+                }
+            ],
+            "internship": ["Internship", "BMS0000"]
+        }, {
+            "yearName": "Fourth Year (Senior)",
+            "semesters": [{
+                    "semesterName": "Fall",
+                    "courses": [
+                        ["BMS2301C", "Diagnostic & Therapeutic Instrumentation & Lab", "BMS4315C", "departmental"],
+                        ["BMS2205", "Quality Control & Quality Assurance& Lab", "BMS4320C", "departmental"],
+                        ["BMS3410C", "Tools in Modern Biology & Lab", "BMS4210C", "departmental"],
+                        ["CMP1300, MLS3435C", "Computational Biology & Lab", "BMS4300C", "departmental"],
+                        ["BMS3305C", "Pharmacology & Toxicology & Lab", "BMS3308C", "departmental"]
+                    ]
+                },
+                {
+                    "semesterName": "Spring",
+                    "courses": [
+                        ["BMS1301C", "Population Health Management", "BMS4220", "departmental"],
+                        ["BMS4320C", "Pharmacovigilance", "BMS4325", "departmental"],
+                        ["BMS3410C, MLS3435C", "Techniques for Forensic Biology & Lab", "BMS3307C", "departmental"],
+                        ["BMS3305C", "Integrative Biomedicine & Disease", "BMS4225", "departmental"],
+                        ["Dep. Approval", "Graduation Project", "BMS4430", "departmental"]
+                    ]
+                }
+            ],
+            "internship": null
+        }]
+    }
+
+}

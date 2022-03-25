@@ -12,9 +12,9 @@
                         ["EGH0615", "Fundamentals of Nursing I", "NUR1200C", "departmental"],
                         ["EGH0615", "Medical Terminology", "MED1100", "collage"],
                         ["EGH0615", "Academic English I", "EGH1310", "university"],
-                        ["EGH0615", "Computer skills", "CMP1300", "university"],
+                        ["EGH0615", "Computer Skills", "CMP1300", "university"],
                         ["EGH0615", "General Medical Biology", "MED1300C", "collage"],
-                         ["EGH0615", "Kurdology", "SOS1205", "university"]
+                        ["EGH0615", "Kurdology", "SOS1205", "university"]
                     ]
                 },
                 {
@@ -50,7 +50,7 @@
                         ["NUR2310C", "Adult Nursing II", "NUR2311C", "departmental"],
                         ["NUR2220", "Mental Health Nursing I", "NUR2225", "departmental"],
                         ["NUR2220", "Pediatric Nursing I", "NUR2330C", "departmental"],
-                        ["CHM2415C", "Fundamentalof Nutrition", "NUR2335", "departmental"],
+                        ["CHM2415C", "Fundamental of Nutrition", "NUR2335", "departmental"],
                         ["NUR2310C", "Introduction to Microbiology", "MLS2405C", "collage"],
                         ["NUR2220", "Basic Immunology", "MED2200", "collage"]
                     ]

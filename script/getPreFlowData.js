@@ -6,6 +6,8 @@ let s5 = [];
 let s6 = [];
 let s7 = [];
 let s8 = [];
+let s9 = [];
+let s10 = [];
 let row = 1;
 let col = 1;
 document.querySelectorAll(".practical").forEach((prac) => {
@@ -13,7 +15,7 @@ document.querySelectorAll(".practical").forEach((prac) => {
 });
 document
   .querySelectorAll(
-    "#tabel1 tbody tr:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3))"
+    "#table1 tbody tr:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3))"
   )
   .forEach((row) => {
     Array.from(row.children).forEach((cell) => {
@@ -31,11 +33,14 @@ document
         // collage
         // university
         // departmental
+        // optional
         cell.className == "cyan"
           ? course.push("collage")
           : cell.className == "green"
           ? course.push("departmental")
-          : cell.className == "yellow" ? course.push("university"):"";
+          : cell.className == "purple" 
+          ? course.push("optional")
+          :cell.className == "yellow" ? course.push("university"):"";
       }
       switch (col) {
         case 1:
@@ -62,6 +67,12 @@ document
         case 8:
           if (course != null) s8.push(course);
           break;
+        case 9:
+          if (course != null) s9.push(course);
+          break;
+        case 10:
+          if (course != null) s10.push(course);
+          break;
 
         default:
           break;
@@ -80,3 +91,5 @@ console.log("semester5: ", s5);
 console.log("semester6: ", s6);
 console.log("semester7: ", s7);
 console.log("semester8: ", s8);
+console.log("semester9: ", s9);
+console.log("semester10: ", s10);

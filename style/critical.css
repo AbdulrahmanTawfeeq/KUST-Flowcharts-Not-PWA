@@ -116,6 +116,8 @@ nav {
   background-color: whitesmoke;
   padding: 0 10px;
   border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
 }
 
 button.bars {
@@ -211,23 +213,28 @@ button.bars {
 }
 
 .flowchart > div > div[college="Languages"] {
-  background-color: #dd8ca8;
+  background-color: #dd8ca8; 
+  /* hsl(356deg 43% 69%) */
 }
 
 .flowchart > div > div[college="Medicine"] {
   background-color: #26a69a;
+  /* hsl(200deg 79% 65%) */
 }
 
 .flowchart > div > div[college="Business"] {
   background-color: #9ccc65d9;
+  /* hsl(164deg 69% 79%) */
 }
 
 .flowchart > div > div[college="Engineering"] {
   background-color: #9a908f;
+  /* hsl(187deg 37% 59%) */
 }
 
 .flowchart > div > div[college="Science"] {
   background-color: #ffab91;
+  /* hsl(209deg 53% 75%) */
 }
 
 nav,
