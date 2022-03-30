@@ -5,10 +5,12 @@ window.onload = () => {
       document
         .querySelector("#flowchart>div")
         .appendChild(department.cloneNode(true));
-      addSpecificListeners(department);
-      addSpecificListeners(
-        document.querySelector("#flowchart>div :last-child")
-      );
+      if (department.tagName != "HR") {
+        addSpecificListeners(department);
+        addSpecificListeners(
+          document.querySelector("#flowchart>div :last-child")
+        );
+      }
     });
 
   document
@@ -95,6 +97,7 @@ let allColoredPreToAndCoCourses;
 let allColoredPreForCourses;
 
 function setColors(courseDiv) {
+  resetColors();
   let courseUpperCode = courseDiv.firstElementChild.textContent
     .trim()
     .toLowerCase();
@@ -182,12 +185,14 @@ function preFor(allCoursesPosCode, thisPosCode, preForColor) {
 }
 
 function resetColors() {
-  let allColored = Array.from(allColoredPreToAndCoCourses).concat(
-    Array.from(allColoredPreForCourses)
-  );
-  allColored.forEach((codeElem) => {
-    codeElem.parentNode.style.backgroundColor = "";
-  });
+  if (allColoredPreToAndCoCourses != undefined) {
+    let allColored = Array.from(allColoredPreToAndCoCourses).concat(
+      Array.from(allColoredPreForCourses)
+    );
+    allColored.forEach((codeElem) => {
+      codeElem.parentNode.style.backgroundColor = "";
+    });
+  }
 }
 
 function scale(action) {
