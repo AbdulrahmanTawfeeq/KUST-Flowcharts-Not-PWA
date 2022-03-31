@@ -218,6 +218,10 @@ button.bars::before {
   left: calc(-100vw + 75px);
 }
 
+.inspection-area{
+  display: none;
+}
+
 .flowchart > div > div:active {
   transform: scale(0.95);
   -webkit-transform: scale(0.95);
@@ -342,7 +346,7 @@ button.bars::before {
   align-items: center;
 }
 
-.flowchart main section div .semester div {
+.flowchart main section div .semester div, .inspect div {
   width: inherit;
   height: var(--value10);
   display: inherit;
@@ -358,7 +362,8 @@ button.bars::before {
 .flowchart main,
 .flowchart main .internship,
 .flowchart main section h4,
-.flowchart main section div .semester div {
+.flowchart main section div .semester div, 
+.inspect div {
   border-radius: var(--border-radius);
   -webkit-border-radius: var(--border-radius);
   -moz-border-radius: var(--border-radius);
@@ -390,13 +395,16 @@ button.bars::before {
   visibility: hidden;
 }
 
-.flowchart main section div .semester div span:first-child {
+.flowchart main section div .semester div span:first-child, 
+.inspect div span:first-child {
   font-size: var(--value6);
   text-align: left;
   text-transform: uppercase;
 }
 
-.flowchart main section div .semester div span:nth-child(2) {
+.flowchart main section div .semester div span:nth-child(2),
+.inspect div span:nth-child(2)
+ {
   max-height: calc((var(--flowchart-size) * 56.521) / 100);
   height: fit-content;
   text-overflow: ellipsis;
@@ -404,7 +412,8 @@ button.bars::before {
   text-align: center;
 }
 
-.flowchart main section div .semester div span:nth-child(2):hover {
+.flowchart main section div .semester div span:nth-child(2):hover,
+.inspect div span:nth-child(2):hover{
   overflow-wrap: break-word;
 }
 
@@ -434,13 +443,16 @@ button.bars::before {
   word-spacing: unset;
 }
 
-.flowchart main section div .semester div span:last-child {
+.flowchart main section div .semester div span:last-child,
+.inspect div span:last-child{
   text-align: center;
   text-transform: uppercase;
 }
 
 .flowchart main section div .semester div span:last-child,
 .flowchart main section div .semester div span:first-child,
+.inspect div span:last-child,
+.inspect div span:first-child,
 .flowchart main .internship span,
 .flowchart main section h4 {
   white-space: nowrap;
@@ -449,6 +461,7 @@ button.bars::before {
 }
 
 .flowchart main section div .semester div span:nth-child(2),
+.inspect div span:nth-child(2),
 .flowchart
   main
   section
@@ -457,6 +470,7 @@ button.bars::before {
   div.rotations
   span:nth-child(2)::first-line,
 .flowchart main section div .semester div span:last-child,
+.inspect div span:last-child,
 .flowchart main .internship span {
   font-size: var(--value7);
 }
@@ -509,7 +523,8 @@ button.bars::before {
 
   button.bars {
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0px;
     border: 0;
     justify-content: space-between;
     align-items: center;
@@ -519,11 +534,13 @@ button.bars::before {
   button.bars::after {
     content: "";
     width: 100vw;
-    height: calc((var(--flowchart-size) * 0.869) / 100);
+    height: 100%;
     position: absolute;
     bottom: 0;
     right: -10px;
-    background-color: #ccc;
+    background-color: whitesmoke;
+    z-index: -1;
+    user-select: none;
   }
 
   nav .close:focus,
@@ -609,7 +626,121 @@ button.bars::before {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+  :root {
+    /* This is important because this value will be set in html by js when setting new flowchart */
+    --flowchart-size: 105px !important;
+  }
+
+  .flowchart{
+    width: 100%;
+    margin-bottom: 135px;
+  }
+
+  .flowchart main{
+    flex-flow: row wrap;
+  }
+
+  .flowchart header {
+    flex-flow: column;
+  }
+
+  .flowchart header::after, .flowchart header img{
+    display: none;
+  }
+
+  .flowchart header div h3 {
+    text-overflow: initial; 
+    white-space: initial;
+  }
+
+  .flowchart main .internship:empty {
+    display: none;
+  }
+
+  .flowchart main{
+    flex-flow: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  .flowchart main .internship span{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+  .flowchart main .internship span:nth-of-type(2){
+    margin: initial;
+  }
+
+  .flowchart main .internship{
+    width: 216.08px;
+    height: fit-content;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  
+  .flowchart main section{
+    width: 100%;
+  }
+
+  .flowchart main section div{
+    width: 100%;
+    column-gap: 7.5px;
+
+  }
+
+  .flowchart main section div .semester{
+    width: 50%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .flowchart main section div .semester div,
+  .inspect div{
+    width: var(--flowchart-size);
+  }
+
+  .inspection-area{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 130px;
+    background-color: whitesmoke;
+    padding: 5px;
+    box-shadow: 0 0 var(--value4) 0 #111, 0 0 var(--value4) 0 #111;
+  }
+
+  .inspect{
+    display: flex;
+    flex-flow: row nowrap;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .inspect div{
+    min-width: var(--flowchart-size);
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .flowchart main section div .semester div, 
+  .inspect div{
+    /* min-width: var(--flowchart-size); */
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 450px) {

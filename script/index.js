@@ -93,8 +93,8 @@ function addSpecificListeners(elem) {
   });
 }
 
-let allColoredPreToAndCoCourses;
-let allColoredPreForCourses;
+let preToAndCoParentIsColored; //span code
+let preForParentIsColored; //span code
 
 function setColors(courseDiv) {
   resetColors();
@@ -113,17 +113,14 @@ function setColors(courseDiv) {
     ".flowchart main section div .semester div span:last-child, .flowchart main .internship span:last-child"
   );
 
-  allColoredPreToAndCoCourses = preToAndCo(
+  preToAndCoParentIsColored = preToAndCo(
     coursesButtomCodes,
     courseUpperCode,
     "#9081ec",
     "#a1877b"
   ); //prerequesite to, co req
-  allColoredPreForCourses = preFor(
-    coursesTopCodes,
-    courseBottomCode,
-    "#E97474"
-  ); //prerequesite for
+  preForParentIsColored = preFor(coursesTopCodes, courseBottomCode, "#E97474"); //prerequesite for
+  setInspect();
 }
 
 function preToAndCo(allCoursesPosCode, thisPosCode, preToColor, coColor) {
@@ -185,13 +182,54 @@ function preFor(allCoursesPosCode, thisPosCode, preForColor) {
 }
 
 function resetColors() {
-  if (allColoredPreToAndCoCourses != undefined) {
-    let allColored = Array.from(allColoredPreToAndCoCourses).concat(
-      Array.from(allColoredPreForCourses)
-    );
-    allColored.forEach((codeElem) => {
+  if (getAllColored() != undefined) {
+    getAllColored().forEach((codeElem) => {
       codeElem.parentNode.style.backgroundColor = "";
     });
+    preToAndCoParentIsColored = undefined;
+    preForParentIsColored = undefined;
+    setInspect();
+  }
+}
+
+function setInspect() {
+  if (document.querySelector(".inspect").children.length > 0) {
+    Array.from(document.querySelector(".inspect").children).forEach((child) => {
+      child.remove();
+    });
+  }
+
+  if (getAllColored() != undefined) {
+    getAllColored().forEach((codeElem) => {
+      let c = codeElem.parentNode.cloneNode(true);
+      c.removeAttribute("onblur");
+      c.removeAttribute("onfocus");
+      c.removeAttribute("onmouseenter");
+      c.removeAttribute("onmouseleave");
+      document.querySelector(".inspect").appendChild(c);
+    });
+  }
+}
+
+function getAllColored() {
+  if (
+    preToAndCoParentIsColored != undefined &&
+    preForParentIsColored != undefined
+  ) {
+    return Array.from(preToAndCoParentIsColored).concat(
+      Array.from(preForParentIsColored)
+    );
+  } else if (
+    preToAndCoParentIsColored != undefined ||
+    preForParentIsColored != undefined
+  ) {
+    if (preToAndCoParentIsColored != undefined) {
+      return Array.from(preToAndCoParentIsColored);
+    } else {
+      return Array.from(preForParentIsColored);
+    }
+  } else {
+    return undefined;
   }
 }
 

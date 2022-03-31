@@ -6,7 +6,6 @@
 }
 html {
   background-color: whitesmoke;
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -244,7 +243,8 @@ a,
 .flowchart main .internship,
 .flowchart main section div .semester div,
 #colors .menu-items img,
-.flowchart > div > div {
+.flowchart > div > div,
+.inspect {
   transition: var(--transition);
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
