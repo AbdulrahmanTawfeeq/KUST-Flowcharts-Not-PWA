@@ -54,14 +54,16 @@ window.onload = () => {
     );
   });
 
-  document.querySelector(".bars").addEventListener("click", () => {
-    document.querySelector(".cover") != null
-      ? document.querySelector(".cover").remove()
-      : "";
-    document.querySelector("nav").style.display = "flex";
-    let cover = document.createElement("div");
-    cover.className = "cover";
-    document.body.appendChild(cover);
+  document.querySelector(".bars").addEventListener("click", (e) => {
+    if (e.offsetX > 0 && e.offsetX <= e.target.offsetWidth) {
+      document.querySelector(".cover") != null
+        ? document.querySelector(".cover").remove()
+        : "";
+      document.querySelector("nav").style.display = "flex";
+      let cover = document.createElement("div");
+      cover.className = "cover";
+      document.body.appendChild(cover);
+    }
   });
 
   document.querySelector("nav .close").addEventListener("click", () => {
