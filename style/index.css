@@ -736,8 +736,8 @@ button.bars::before {
 }
 
 @media only screen and (max-width: 480px) {
-  .flowchart main section div .semester div, 
-  .inspect div{
+  /* .inspect div, */
+  .flowchart main section div .semester div{
     /* min-width: var(--flowchart-size); */
     width: 100%;
   }

@@ -1,4 +1,5 @@
 window.onload = () => {
+  loadFlowchartByLink();
   document
     .querySelectorAll("#departments .menu-items :not(h3)")
     .forEach((department) => {
@@ -82,6 +83,22 @@ window.onload = () => {
     "head"
   )[0].innerHTML += `<meta name="author" content="name: AbdulrahmanTawfeeq, email: abdulrahman.tofiqf18@komar.edu.iq">`;
 };
+
+function loadFlowchartByLink() {
+  if (window.location.search.split("=")[0] == "?flowchart") {
+    if (
+      Array.from(
+        document.querySelectorAll("#departments .menu-items :not(h3):not(hr)")
+      )
+        .map((div) => {
+          return div.textContent;
+        })
+        .indexOf(decodeURI(window.location.search.split("=")[1])) != -1
+    ) {
+      setTemplate(`data/${decodeURI(window.location.search.split("=")[1])}.json`);
+    }
+  }
+}
 
 function addSpecificListeners(elem) {
   elem.addEventListener("click", () =>

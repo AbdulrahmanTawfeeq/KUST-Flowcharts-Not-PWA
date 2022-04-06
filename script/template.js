@@ -36,18 +36,16 @@ function templateSettings(pdfPath, departmentName, courseDescription) {
 }
 
 function setTemplate(path) {
-  setTimeout(() => {
-    jsonData(path)
-      .then((data) => {
-        // destructuring js object we got from json file
-        // new way of declaring variables
-        const { departmentName, fType, courseDescription, pdfPath, years } =
-          data.flowchart;
-        new Flowchart(departmentName, fType, years);
-        templateSettings(pdfPath, departmentName, courseDescription);
-      })
-      .catch((err) => console.log(err.message));
-  }, 200);
+  jsonData(path)
+    .then((data) => {
+      // destructuring js object we got from json file
+      // new way of declaring variables
+      const { departmentName, fType, courseDescription, pdfPath, years } =
+        data.flowchart;
+      new Flowchart(departmentName, fType, years);
+      templateSettings(pdfPath, departmentName, courseDescription);
+    })
+    .catch((err) => console.log(err.message));
 }
 /**
  * (C)
